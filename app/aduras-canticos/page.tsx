@@ -1,3 +1,4 @@
+import Header from "@/components/header";
 import Link from "next/link";
 
 const aduras = [
@@ -26,14 +27,18 @@ const aduras = [
 
 export default function AdurasCanticosPage() {
   return (
-    <main>
-      <h1>Aduras</h1>
-      <h2>O Sopro do Axé: A Oralidade no Candomblé e a Força da Palavra</h2>
-      <p>Historicamente, o Candomblé consolidou-se em solo brasileiro como uma religião de profunda tradição oral. Diante da violência da diáspora forçada e da privação de registros escritos, foram as vozes dos nossos ancestrais que, superando todas as intempéries históricas, garantiram a preservação e a transmissão dos saberes sagrados até as gerações atuais.
-
-Nas comunidades de terreiro, a fala não é um mero veículo de comunicação comum; ela é o próprio veículo do Axé (a força vital). No entanto, o distanciamento histórico e a falta de estudos aprofundados sobre a língua iorubá fizeram com que, muitas vezes, cânticos e rezas fossem apenas memorizados de forma mecânica. Compreender a diferença e o significado real das palavras pronunciadas nas cerimônias é um passo fundamental para honrar a herança africana e evoluir o culto de matriz africana no Brasil.
-
-Para compreender essa teia de ensinamentos orais, é preciso diferenciar as cinco principais formas de expressão litúrgica:
+    <div>
+      <Header />
+      <main className="flex min-h-screen flex-col items-center justify-center bg-[#f4c7a1] gap-5">
+          <div className="title-main">
+          <h1 className="mb-3 max-w-260 text-center text-sm font-semibold leading-tight">
+            O Sopro do Axé: A Oralidade no Candomblé e a Força da Palavra
+          </h1>
+          </div>
+          <div className= "text-content">
+          <p className="mx-auto max-w-260 whitespace-pre-line text-center text-[11px] leading-[1.35]">
+            {`Historicamente, o Candomblé consolidou-se em solo brasileiro como uma religião de profunda tradição oral. 
+Nas comunidades de terreiro, a fala não é um mero veículo de comunicação comum; ela é o próprio veículo do Axé (a força vital). Para compreender essa teia de ensinamentos orais, é preciso diferenciar as cinco principais formas de expressão litúrgica:
 
 1. Àdúrà (A Súplica Cantada)
 Conceito: O àdúrà é a reza ou oração direcionada aos Orixás. Traduz-se como súplica ou oração.
@@ -45,10 +50,10 @@ Conceito: Traduzido essencialmente como "poesia", o oríkì é um texto poético
 
 Função: Enquanto o àdúrà é majoritariamente cantado, o oríkì é declamado ou recitado de forma poética. É a ferramenta essencial para o encantamento e ativação das forças sagradas nos assentamentos (ojubós). É também nos oríkìs que encontramos a base mítica para a realização de grande parte dos ritos litúrgicos.
 
-3. Ọfọ̀ (O Sopro do Encantamento)
-Conceito: O ọfọ̀ é a palavra de poder, a expressão verbal da magia e do encantamento. Pode ser uma frase longa ou uma única palavra sagrada.
+3. Ọ̀fọ̀ (O Sopro do Encantamento)
+Conceito: O ọ̀fọ̀ é a palavra de poder, a expressão verbal da magia e do encantamento. Pode ser uma frase longa ou uma única palavra sagrada.
 
-Função: É utilizado para potencializar ações mágicas ou terapêuticas — como no encantamento das folhas litúrgicas (ritos de cura e banhos). O grande segredo do ọfọ̀ reside no fato de que não basta pronunciá-lo: é preciso ter o axé, o dom e o alinhamento espiritual para ativá-lo. Dependendo da intenção, dividem-se em categorias como ọfọ̀ iba (homenagem), ọfọ̀ awure (boa sorte) e ọfọ̀ isoye (memória).
+Função: É utilizado para potencializar ações mágicas ou terapêuticas, como no encantamento das folhas litúrgicas (ritos de cura e banhos). O grande segredo do ọ̀fọ̀ reside no fato de que não basta pronunciá-lo: é preciso ter o axé, o dom e o alinhamento espiritual para ativá-lo. Dependendo da intenção, dividem-se em categorias como ọ̀fọ̀ iba (homenagem), ọ̀fọ̀ awure (boa sorte) e ọ̀fọ̀ isoye (memória).
 
 4. Ìtàn (A Narrativa Mítica e Educativa)
 Conceito: O ìtàn representa a história, o mito e a biografia de divindades e forças da natureza.
@@ -58,14 +63,21 @@ Função: No Candomblé, uma religião consuetudinária (que se baseia no costum
 5. Orin (O Canto Coletivo)
 Conceito: A palavra orin significa, simplesmente, cântico ou música.
 
-Função: No contexto ritualístico, os orins são as cantigas sagradas que compõem o Xirê (a roda de louvação festiva aos Orixás). Cada divindade possui suas próprias cantigas exclusivas que servem para evocá-las e celebrar suas presenças. O canto coletivo une a comunidade, gera transe e harmoniza o terreiro através do som dos atabaques.</p>
-      <ul>
-        {aduras.map((adura) => (
-          <li key={adura.id}>
-            <Link href={`/aduras-canticos/${adura.slug}`}>{adura.name}</Link>
-          </li>
-        ))}
-      </ul>
-    </main>
+Função: No contexto ritualístico, os orins são as cantigas sagradas que compõem o Xirê (a roda de louvação festiva aos Orixás). Cada divindade possui suas próprias cantigas exclusivas que servem para evocá-las e celebrar suas presenças. O canto coletivo une a comunidade, gera transe e harmoniza o terreiro através do som dos atabaques.`}
+          </p>
+          </div>
+
+        <div className="menu-link">
+
+        <ul className="mx-auto mt-10 grid max-w-240 gap-3 text-center sm:grid-cols-2 lg:grid-cols-3">
+          {aduras.map((adura) => (
+            <li key={adura.id}>
+              <Link href={`/aduras-canticos/${adura.slug}`}>{adura.name}</Link>
+            </li>
+          ))}
+        </ul>
+        </div>
+      </main>
+    </div>
   );
 }
