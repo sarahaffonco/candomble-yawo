@@ -29,13 +29,13 @@ export default function AdurasCanticosPage() {
   return (
     <div>
       <Header />
-      <main className="flex min-h-screen flex-col items-center justify-center bg-[#f4c7a1] gap-5">
+      <main className="flex min-h-screen flex-col items-center justify-center  gap-5">
         <br></br>
           <h1 className=" title-card mb-3 max-w-260 text-center text-sm font-semibold leading-tight">
             O Sopro do Axé: A Oralidade no Candomblé e a Força da Palavra
           </h1>
 
-          <p className=" text-content mx-auto max-w-[760px] whitespace-pre-line text-justify text-[11px] leading-[1.35]">
+          <p className=" text-content mx-auto max-w-190 whitespace-pre-line text-justify ">
             {`Historicamente, o Candomblé consolidou-se em solo brasileiro como uma religião de profunda tradição oral. 
 Nas comunidades de terreiro, a fala não é um mero veículo de comunicação comum; ela é o próprio veículo do Axé (a força vital). Para compreender essa teia de ensinamentos orais, é preciso diferenciar as cinco principais formas de expressão litúrgica:
 
