@@ -30,13 +30,12 @@ export default function AdurasCanticosPage() {
     <div>
       <Header />
       <main className="flex min-h-screen flex-col items-center justify-center bg-[#f4c7a1] gap-5">
-          <div className="title-main">
-          <h1 className="mb-3 max-w-260 text-center text-sm font-semibold leading-tight">
+        <br></br>
+          <h1 className=" title-card mb-3 max-w-260 text-center text-sm font-semibold leading-tight">
             O Sopro do Axé: A Oralidade no Candomblé e a Força da Palavra
           </h1>
-          </div>
-          <div className= "text-content">
-          <p className="mx-auto max-w-260 whitespace-pre-line text-center text-[11px] leading-[1.35]">
+
+          <p className=" text-content mx-auto max-w-[760px] whitespace-pre-line text-justify text-[11px] leading-[1.35]">
             {`Historicamente, o Candomblé consolidou-se em solo brasileiro como uma religião de profunda tradição oral. 
 Nas comunidades de terreiro, a fala não é um mero veículo de comunicação comum; ela é o próprio veículo do Axé (a força vital). Para compreender essa teia de ensinamentos orais, é preciso diferenciar as cinco principais formas de expressão litúrgica:
 
@@ -65,17 +64,17 @@ Conceito: A palavra orin significa, simplesmente, cântico ou música.
 
 Função: No contexto ritualístico, os orins são as cantigas sagradas que compõem o Xirê (a roda de louvação festiva aos Orixás). Cada divindade possui suas próprias cantigas exclusivas que servem para evocá-las e celebrar suas presenças. O canto coletivo une a comunidade, gera transe e harmoniza o terreiro através do som dos atabaques.`}
           </p>
-          </div>
 
         <div className="menu-link">
-
-        <ul className="mx-auto mt-10 grid max-w-240 gap-3 text-center sm:grid-cols-2 lg:grid-cols-3">
-          {aduras.map((adura) => (
-            <li key={adura.id}>
-              <Link href={`/aduras-canticos/${adura.slug}`}>{adura.name}</Link>
-            </li>
-          ))}
-        </ul>
+          <ul className="mx-auto mt-10 grid max-w-240 gap-3 text-center sm:grid-cols-2 lg:grid-cols-3">
+            {aduras.map((adura) => (
+              <li key={adura.id}>
+                <Link href={`/aduras-canticos/${adura.slug}`}>
+                  {adura.name}
+                </Link>
+              </li>
+            ))}
+          </ul>
         </div>
       </main>
     </div>
