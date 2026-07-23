@@ -1,0 +1,21 @@
+
+export const orixasColors = {
+  esu: "red",
+  ogum: "blue",
+  oxossi: "green",
+  logun: "yellow",
+  ossaim: "green",
+  omulu: "black",
+  oxumare: "rainbow",
+  iroko: "brown",
+  xango: "red",
+  oya: "red",
+  oba: "orange",
+  oxum: "yellow",
+  ewa: "pink",
+  nana: "purple",
+  iemanja: "blue",
+  oxala: "gray",
+  iyami: "black",
+  ori: "gray",
+} as const;

@@ -1,28 +1,36 @@
 import Header from "@/components/header";
-import Link from "next/link";
+import AduraButton from "@/components/adurasButtons";
+import { orixasColors } from "@/data/orixasColors";
 
-const aduras = [
-  { id: 1, name: "Adura Exú", slug: "adura-esu" },
-  { id: 2, name: "Adura Ogum", slug: "adura-ogum" },
-  { id: 3, name: "Adura Oxóssi", slug: "adura-oxossi" },
-  { id: 4, name: "Adura Logun-Edé", slug: "adura-logun" },
-  { id: 5, name: "Adura Ossaim", slug: "adura-ossaim" },
-  { id: 6, name: "Adura Omulu", slug: "adura-omulu" },
-  { id: 7, name: "Adura Oxumarê", slug: "adura-oxumare" },
-  { id: 8, name: "Adura Iroko", slug: "adura-iroko" },
-  { id: 9, name: "Adura Xangô 1", slug: "adura-xango1" },
-  { id: 10, name: "Adura Xangô 2", slug: "adura-xango2" },
-  { id: 11, name: "Adura Oyá", slug: "adura-oya" },
-  { id: 12, name: "Adura Obá", slug: "adura-oba" },
-  { id: 13, name: "Adura Oxum", slug: "adura-oxum" },
-  { id: 14, name: "Adura Ewá", slug: "adura-ewa" },
-  { id: 15, name: "Adura Nanã", slug: "adura-nana" },
-  { id: 16, name: "Adura Iemanjá", slug: "adura-iemanja" },
-  { id: 17, name: "Adura Oxalá", slug: "adura-oxala" },
-  { id: 18, name: "Adura Iyami 1", slug: "adura-yami1" },
-  { id: 19, name: "Adura Iyami 2", slug: "adura-yam2" },
-  { id: 20, name: "Adura Ori 1", slug: "adura-ori1" },
-  { id: 21, name: "Adura Ori 2", slug: "adura-ori2" },
+type OrixaColorKey = keyof typeof orixasColors;
+
+const aduras: Array<{
+  id: number;
+  name: string;
+  slug: string;
+  orixa: OrixaColorKey;
+}> = [
+  { id: 1, name: "Adura Exú", slug: "adura-esu", orixa: "esu" },
+  { id: 2, name: "Adura Ogum", slug: "adura-ogum", orixa: "ogum" },
+  { id: 3, name: "Adura Oxóssi", slug: "adura-oxossi", orixa: "oxossi" },
+  { id: 4, name: "Adura Logun-Edé", slug: "adura-logun", orixa: "logun" },
+  { id: 5, name: "Adura Ossaim", slug: "adura-ossaim", orixa: "ossaim" },
+  { id: 6, name: "Adura Omulu", slug: "adura-omulu", orixa: "omulu" },
+  { id: 7, name: "Adura Oxumarê", slug: "adura-oxumare", orixa: "oxumare" },
+  { id: 8, name: "Adura Iroko", slug: "adura-iroko", orixa: "iroko" },
+  { id: 9, name: "Adura Xangô 1", slug: "adura-xango1", orixa: "xango" },
+  { id: 10, name: "Adura Xangô 2", slug: "adura-xango2", orixa: "xango" },
+  { id: 11, name: "Adura Oyá", slug: "adura-oya", orixa: "oya" },
+  { id: 12, name: "Adura Obá", slug: "adura-oba", orixa: "oba" },
+  { id: 13, name: "Adura Oxum", slug: "adura-oxum", orixa: "oxum" },
+  { id: 14, name: "Adura Ewá", slug: "adura-ewa", orixa: "ewa" },
+  { id: 15, name: "Adura Nanã", slug: "adura-nana", orixa: "nana" },
+  { id: 16, name: "Adura Iemanjá", slug: "adura-iemanja", orixa: "iemanja" },
+  { id: 17, name: "Adura Oxalá", slug: "adura-oxala", orixa: "oxala" },
+  { id: 18, name: "Adura Iyami 1", slug: "adura-yami1", orixa: "iyami" },
+  { id: 19, name: "Adura Iyami 2", slug: "adura-yam2", orixa: "iyami" },
+  { id: 20, name: "Adura Ori 1", slug: "adura-ori1", orixa: "ori" },
+  { id: 21, name: "Adura Ori 2", slug: "adura-ori2", orixa: "ori" },
 ];
 
 export default function AdurasCanticosPage() {
@@ -65,16 +73,16 @@ Conceito: A palavra orin significa, simplesmente, cântico ou música.
 Função: No contexto ritualístico, os orins são as cantigas sagradas que compõem o Xirê (a roda de louvação festiva aos Orixás). Cada divindade possui suas próprias cantigas exclusivas que servem para evocá-las e celebrar suas presenças. O canto coletivo une a comunidade, gera transe e harmoniza o terreiro através do som dos atabaques.`}
           </p>
 
-        <div className="menu-link">
-          <ul className="mx-auto mt-10 grid max-w-240 gap-3 text-center sm:grid-cols-2 lg:grid-cols-3">
-            {aduras.map((adura) => (
-              <li key={adura.id}>
-                <Link href={`/aduras-canticos/${adura.slug}`}>
-                  {adura.name}
-                </Link>
-              </li>
-            ))}
-          </ul>
+        <div className="grid w-full max-w-5xl grid-cols-1 gap-3 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6">
+          {aduras.map((adura) => (
+            <div key={adura.id} className="w-full">
+              <AduraButton
+                slug={adura.slug}
+                nome={adura.name}
+                cor={orixasColors[adura.orixa]}
+              />
+            </div>
+          ))}
         </div>
       </main>
     </div>

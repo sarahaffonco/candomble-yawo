@@ -1,5 +1,6 @@
 import Header from "@/components/header";
-
+import OrixasButtons from "@/components/orixasButtons"
+import {orixas} from "@/data/orixas"
 export default function OrixasPage() {
   return (
     <div>
@@ -62,6 +63,16 @@ export default function OrixasPage() {
         vivas (Orixás). Exemplos: Şàngó (Xangô, que foi o terceiro rei lendário
         de Oyó), Ògún (Ogum, rei de Irê) e Oya (Iansã)
       </p>
+       <div className="flex flex-wrap gap-4">
+        {orixas.map((orixa) => (
+          <OrixasButtons
+            key={orixa.slug}
+            nome={orixa.nome}
+            slug={orixa.slug}
+            cor={orixa.cor}
+          />
+        ))}
+      </div>
 
       </main>
       </div>
