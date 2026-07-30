@@ -12,6 +12,7 @@ export const orixasColors = {
   oya: "red",
   oba: "orange",
   oxum: "yellow",
+  ibeji: "rainbow",
   ewa: "pink",
   nana: "purple",
   iemanja: "blue",

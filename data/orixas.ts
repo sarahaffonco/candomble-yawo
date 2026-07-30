@@ -812,6 +812,62 @@ Estratégia e Rancor: Nunca atacam de frente. Quando magoados, podem guardar ran
     ]
   },
   {
+    slug: "ibeji",
+    imagem: "/images/orixas/ibeji.png",
+    nome: "Ibeji",
+
+    descricao: `Orixás gêmeos que representam a pureza, a alegria, a inocência e o início da vida, sendo associados ao nascimento e à infância.`,
+    dominio: `Nascimento, infância, alegria, prosperidade e os ciclos renovadores da vida.`,
+    caracteristicaOrixa: `Sua energia é ligada à força da vida que brota e se renova, sendo divindades que trazem o equilíbrio através da leveza e do otimismo.`,
+    cor: `Rosa, azul-celeste e verde-água (variando conforme a nação).`,
+    semana: `Domingo`,
+    caracteristicasFilhos: `Pessoas geralmente alegres, comunicativas, com espírito jovem, que valorizam amizades, têm facilidade de perdoar e uma natureza voltada para a criatividade e o entusiasmo.`,
+    qualidades: [
+      {
+        nome: "Taiwo",
+        caracteristicas: "É o primeiro dos gêmeos a nascer, sendo considerado o que vai à frente para explorar o mundo.",
+        historia: "Na tradição iorubá, acredita-se que Taiwo envia Kehinde para verificar se o mundo é um lugar bom para viver.",
+        cores: "Rosa e azul",
+        ligacao: "Ligado ao pioneirismo e à exploração.",
+      },
+      {
+        nome: "Kehinde",
+        caracteristicas: "O segundo gêmeo a nascer, possui uma personalidade que completa a do irmão.",
+        historia: "É aquele que segue Taiwo, trazendo a sabedoria oculta e a continuidade dos ciclos.",
+        cores: "Rosa e azul",
+        ligacao: "Ligado à continuidade e à proteção do caçula.",
+      },
+      {
+        nome: "Idowu",
+        caracteristicas: "Criança nascida logo após o nascimento de gêmeos.",
+        historia: "Considerado um espírito que traz uma energia especial de proteção e sorte para a família.",
+        cores: "Variadas, tons pastéis",
+        ligacao: "Ligado à harmonia familiar.",
+      },
+      {
+        nome: "Alaba",
+        caracteristicas: "Nome dado à criança que nasce após o nascimento de um Idowu.",
+        historia: "Representa a constante renovação e o crescimento contínuo da linhagem.",
+        cores: "Verde-água",
+        ligacao: "Ligado ao desenvolvimento e à vida nova.",
+      },
+      {
+        nome: "Ibeji (Geral)",
+        caracteristicas: "A dualidade perfeita que equilibra a natureza humana.",
+        historia: "Simbolizam que a felicidade é um estado que deve ser cultivado através da união.",
+        cores: "Rosa e azul",
+        ligacao: "Ligado à proteção da infância.",
+      },
+      {
+        nome: "Omo Ibeji",
+        caracteristicas: "Energia pura voltada para a realização de pedidos através da doçura.",
+        historia: "Culta-se a energia das crianças para abrir caminhos bloqueados pela rigidez adulta.",
+        cores: "Multicores",
+        ligacao: "Ligado à pureza e aos pedidos infantis.",
+      }
+    ]
+  },
+  {
     slug: "ewa",
     imagem: "/images/orixas/Ewa.png",
     nome: " Ewa ",
