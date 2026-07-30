@@ -1,12 +1,14 @@
+'use client';
+
 import React from 'react';
 import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 
 const leftLinks = [
-  { href: '/', label: 'Início', active: true },
+  { href: '/', label: 'Início' },
   { href: '/itans', label: 'Itans' },
   { href: '/orixas', label: 'Orixás' },
-    { href: '/candomble', label: 'O Candomblé' },
-
+  { href: '/candomble', label: 'O Candomblé' },
 ];
 
 const rightLinks = [
@@ -17,6 +19,15 @@ const rightLinks = [
 ];
 
 export default function Header() {
+  const pathname = usePathname();
+
+  const isActive = (href: string) => {
+    if (href === '/') {
+      return pathname === '/';
+    }
+    return pathname === href || pathname?.startsWith(`${href}/`);
+  };
+
   return (
     <header className="w-full overflow-hidden bg-[#fff1d0]">
 
@@ -26,21 +37,25 @@ export default function Header() {
 
         <nav className="relative z-10 grid w-full max-w-280 grid-cols-1 items-center gap-4 text-center lg:grid-cols-[1fr_auto_1fr]">
           <div className="flex min-w-0 flex-wrap items-center justify-center gap-x-3 gap-y-2 lg:justify-end xl:gap-x-4">
-            {leftLinks.map((link, index) => (
-              <React.Fragment key={link.href}>
-                <Link
-                  href={link.href}
-                  className={`relative pb-2 text-sm font-bold uppercase text-[#ffe7bb] transition hover:text-[#f7a12d] ${
-                    link.active ? 'text-[#f7a12d] after:absolute after:bottom-0 after:left-0 after:h-0.75 after:w-full after:rounded-full after:bg-[#f7a12d]' : ''
-                  }`}
-                >
-                  {link.label}
-                </Link>
-                {index < leftLinks.length - 1 ? (
-                  <span className="hidden h-7 w-px bg-[#d97824] md:block" aria-hidden="true" />
-                ) : null}
-              </React.Fragment>
-            ))}
+            {leftLinks.map((link, index) => {
+              const active = isActive(link.href);
+
+              return (
+                <React.Fragment key={link.href}>
+                  <Link
+                    href={link.href}
+                    className={`relative pb-2 text-sm font-bold uppercase text-[#ffe7bb] transition hover:text-[#f7a12d] ${
+                      active ? 'text-[#f7a12d] after:absolute after:bottom-0 after:left-0 after:h-0.75 after:w-full after:rounded-full after:bg-[#f7a12d]' : ''
+                    }`}
+                  >
+                    {link.label}
+                  </Link>
+                  {index < leftLinks.length - 1 ? (
+                    <span className="hidden h-7 w-px bg-[#d97824] md:block" aria-hidden="true" />
+                  ) : null}
+                </React.Fragment>
+              );
+            })}
           </div>
 
           <Link href="/" className="group flex min-w-0 items-center justify-center gap-2 xl:gap-3">
@@ -57,19 +72,25 @@ export default function Header() {
           </Link>
 
           <div className="flex min-w-0 flex-wrap items-center justify-center gap-x-3 gap-y-2 lg:flex-nowrap lg:justify-start xl:gap-x-4">
-            {rightLinks.map((link, index) => (
-              <React.Fragment key={link.href}>
-                <Link
-                  href={link.href}
-                  className="pb-2 text-sm font-bold uppercase text-[#ffe7bb] transition hover:text-[#f7a12d]"
-                >
-                  {link.label}
-                </Link>
-                {index < rightLinks.length - 1 ? (
-                  <span className="hidden h-7 w-px bg-[#d97824] md:block" aria-hidden="true" />
-                ) : null}
-              </React.Fragment>
-            ))}
+            {rightLinks.map((link, index) => {
+              const active = isActive(link.href);
+
+              return (
+                <React.Fragment key={link.href}>
+                  <Link
+                    href={link.href}
+                    className={`relative pb-2 text-sm font-bold uppercase text-[#ffe7bb] transition hover:text-[#f7a12d] ${
+                      active ? 'text-[#f7a12d] after:absolute after:bottom-0 after:left-0 after:h-0.75 after:w-full after:rounded-full after:bg-[#f7a12d]' : ''
+                    }`}
+                  >
+                    {link.label}
+                  </Link>
+                  {index < rightLinks.length - 1 ? (
+                    <span className="hidden h-7 w-px bg-[#d97824] md:block" aria-hidden="true" />
+                  ) : null}
+                </React.Fragment>
+              );
+            })}
 
             <button
               type="button"
