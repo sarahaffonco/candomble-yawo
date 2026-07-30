@@ -32,7 +32,7 @@ export default function OrixasPage() {
       </p>
       <h2 className=" subtitle ">As Categorias do Divino:</h2>
       <p className="text-content mx-auto max-w-190 whitespace-pre-line text-justif">
-        Na teologia iorubá e nas tradições preservadas no Candomblé, nem toda
+        Na teologiaiorubá e nas tradições preservadas no Candomblé, nem toda
         entidade ou força primordial é classificada da mesma forma. Há
         distincões fundamentais entre esses conceitos:{" "}
       </p>
