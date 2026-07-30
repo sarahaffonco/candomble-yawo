@@ -8,9 +8,9 @@ export default function Home() {
       <Header />
       
 
-      <section className="mx-auto mt-24 grid w-full max-w-[1180px] gap-10 px-4 pb-12 pt-30 md:grid-cols-[minmax(260px,420px)_minmax(0,1fr)] md:px-8 md:pt-24 lg:gap-14">
+      <section className="mx-auto mt-24 grid w-full max-w-295 gap-10 px-4 pb-12 pt-30 md:grid-cols-[minmax(260px,420px)_minmax(0,1fr)] md:px-8 md:pt-24 lg:gap-14">
         <div className="flex items-center md:justify-end">
-          <div className="relative w-full max-w-[360px] overflow-hidden rounded-[28px] shadow-2xl">
+          <div className="relative w-full max-w-90 overflow-hidden rounded-[28px] shadow-2xl">
             <Image
               src="/images/yawo.jpg"
               alt="Yawo"
@@ -22,7 +22,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="flex max-w-[700px] flex-col gap-10 text-[#2d1b12] md:justify-self-start">
+        <div className="flex max-w-175 flex-col gap-10 text-[#2d1b12] md:justify-self-start">
           <div className="h-6" />
           <div className="title-card text-center ">
             <p>Àṣẹ e boas-vindas</p>

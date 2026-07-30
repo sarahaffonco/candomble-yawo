@@ -43,11 +43,13 @@ body {
 }
 
 .text-content {
+  text-align: justify;
   @apply text-base leading-8;
 }
 
-.text-small {
-  @apply text-sm leading-6;
+.subtitle {
+font-family: var(--font-cinzel);
+  @apply text-lg font-semibold;
 }
 
 .menu-link {
