@@ -1,4 +1,12 @@
+import OrixaButton from "@/components/orixasButtons";
 import Header from "@/components/header";
+<<<<<<< Updated upstream
+=======
+import { orixasColors } from "@/data/orixasColors";
+import { orixas } from "@/data/orixas";
+
+type OrixaItem = (typeof orixas)[number];
+>>>>>>> Stashed changes
 
 export default function OrixasPage() {
   return (
@@ -62,6 +70,23 @@ export default function OrixasPage() {
         vivas (Orixás). Exemplos: Şàngó (Xangô, que foi o terceiro rei lendário
         de Oyó), Ògún (Ogum, rei de Irê) e Oya (Iansã)
       </p>
+<<<<<<< Updated upstream
+=======
+      <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4">
+
+          {orixas.map((orixa) => (
+
+            <OrixaButton
+              key={orixa.slug}
+              nome={orixa.nome}
+              slug={orixa.slug}
+              cor={orixasColors[orixa.slug as keyof typeof orixasColors]}
+            />
+
+          ))}
+
+      </div>
+>>>>>>> Stashed changes
 
       </main>
       </div>
