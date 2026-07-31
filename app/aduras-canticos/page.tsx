@@ -1,5 +1,6 @@
 import Header from "@/components/header";
-import Link from "next/link";
+import ContentCard from "@/components/contentCard";
+import { getCardImagePath } from "@/lib/cardImages";
 
 const aduras = [
   { id: 1, name: "Adura Exú", slug: "adura-esu" },
@@ -17,10 +18,10 @@ const aduras = [
   { id: 13, name: "Adura Oxum", slug: "adura-oxum" },
   { id: 14, name: "Adura Ewá", slug: "adura-ewa" },
   { id: 15, name: "Adura Nanã", slug: "adura-nana" },
-  { id: 16, name: "Adura Iemanjá", slug: "adura-iemanja" },
+  { id: 16, name: "Adura Iemanjá", slug: "adura-yemanja" },
   { id: 17, name: "Adura Oxalá", slug: "adura-oxala" },
   { id: 18, name: "Adura Iyami 1", slug: "adura-yami1" },
-  { id: 19, name: "Adura Iyami 2", slug: "adura-yam2" },
+  { id: 19, name: "Adura Iyami 2", slug: "adura-yami2" },
   { id: 20, name: "Adura Ori 1", slug: "adura-ori1" },
   { id: 21, name: "Adura Ori 2", slug: "adura-ori2" },
 ];
@@ -31,12 +32,12 @@ export default function AdurasCanticosPage() {
       <Header />
       <main className="flex min-h-screen flex-col items-center justify-center  gap-5">
         <br></br>
-          <h1 className=" title-card mb-3 max-w-260 text-center text-sm font-semibold leading-tight">
-            O Sopro do Axé: A Oralidade no Candomblé e a Força da Palavra
-          </h1>
+        <h1 className=" title-card mb-3 max-w-260 text-center text-sm font-semibold leading-tight">
+          O Sopro do Axé: A Oralidade no Candomblé e a Força da Palavra
+        </h1>
 
-          <p className=" text-content mx-auto max-w-190 whitespace-pre-line text-justify ">
-            {`Historicamente, o Candomblé consolidou-se em solo brasileiro como uma religião de profunda tradição oral. 
+        <p className=" text-content mx-auto max-w-190 whitespace-pre-line text-justify ">
+          {`Historicamente, o Candomblé consolidou-se em solo brasileiro como uma religião de profunda tradição oral. 
 Nas comunidades de terreiro, a fala não é um mero veículo de comunicação comum; ela é o próprio veículo do Axé (a força vital). Para compreender essa teia de ensinamentos orais, é preciso diferenciar as cinco principais formas de expressão litúrgica:
 
 1. Àdúrà (A Súplica Cantada)
@@ -63,18 +64,27 @@ Função: No Candomblé, uma religião consuetudinária (que se baseia no costum
 Conceito: A palavra orin significa, simplesmente, cântico ou música.
 
 Função: No contexto ritualístico, os orins são as cantigas sagradas que compõem o Xirê (a roda de louvação festiva aos Orixás). Cada divindade possui suas próprias cantigas exclusivas que servem para evocá-las e celebrar suas presenças. O canto coletivo une a comunidade, gera transe e harmoniza o terreiro através do som dos atabaques.`}
-          </p>
+        </p>
 
-        <div className="menu-link">
-          <ul className="mx-auto mt-10 grid max-w-240 gap-3 text-center sm:grid-cols-2 lg:grid-cols-3">
-            {aduras.map((adura) => (
-              <li key={adura.id}>
-                <Link href={`/aduras-canticos/${adura.slug}`}>
-                  {adura.name}
-                </Link>
-              </li>
-            ))}
-          </ul>
+        <div className="grid max-w-240 mx-auto grid-cols-2 gap-3 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-4">
+          {aduras.map((adura) => {
+            const base = adura.slug
+              .replace(/^adura-/, "")
+              .replace(/\d+$/, "")
+              .toLowerCase();
+
+            const pngImages = new Set(["ewa", "iroko", "oya", "yami"]);
+
+            const cardImage = `/images/cards/${base}.${pngImages.has(base) ? "png" : "jpg"}`;
+            return (
+              <ContentCard
+                key={adura.id}
+                href={`/aduras-canticos/${adura.slug}`}
+                nome={adura.name}
+                cardImage={getCardImagePath(adura.slug)}
+              />
+            );
+          })}
         </div>
       </main>
     </div>

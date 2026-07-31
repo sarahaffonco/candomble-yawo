@@ -972,9 +972,9 @@ Estratégia e Rancor: Nunca atacam de frente. Quando magoados, podem guardar ran
     ]
   },
   {
-    slug: "iemanja",
+    slug: "yemanja",
     imagem: "/images/orixas/Yemanja.png",
-    nome: "Iemanjá",
+    nome: "Yemanjá",
     descricao: `O nome Iemanjá deriva da expressão iorubá Yèyé omo ejá, que significa "Mãe cujos filhos são peixes". Na África, ela é tradicionalmente uma divindade associada às águas e patrona do rio Ògùn, na região da Nigéria. Contudo, com a diáspora e a chegada da religião à América, ela passou a ser cultuada principalmente como a soberana e dona dos mares.`,
     dominio: `Iemanjá tem seu principal ponto de força e domínio nos mares, nas águas salgadas e também nos rios.
 

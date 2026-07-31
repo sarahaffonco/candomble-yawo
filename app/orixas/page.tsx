@@ -1,7 +1,7 @@
-import OrixaButton from "@/components/orixasButtons";
 import Header from "@/components/header";
-import { orixasColors } from "@/data/orixasColors";
+import ContentCard from "@/components/contentCard";
 import { orixas } from "@/data/orixas";
+import { getCardImagePath } from "@/lib/cardImages";
 
 type OrixaItem = (typeof orixas)[number];
 
@@ -9,9 +9,9 @@ export default function OrixasPage() {
   return (
     <div>
       <Header />
-      <main className="flex min-h-screen flex-col items-center justify-center  gap-5">
+      <main className="flex min-h-screen flex-col items-center justify-center gap-5 px-4 py-8 sm:px-6 lg:px-8">
         <br></br>
-          <h1 className=" title-card mb-3 max-w-260 text-center text-sm font-semibold leading-tight">Os Orixás </h1>
+        <h1 className="title-card mb-3 max-w-260 text-center text-sm font-semibold leading-tight">Os Orixás</h1>
       <p className="text-content mx-auto max-w-190 whitespace-pre-line text-justify">
         Dentro da cosmologia iorubá e do Candomblé, os Orixás não são apenas
         deuses distantes no céu, mas sim a personificação de forças vivas da
@@ -67,19 +67,15 @@ export default function OrixasPage() {
         vivas (Orixás). Exemplos: Şàngó (Xangô, que foi o terceiro rei lendário
         de Oyó), Ògún (Ogum, rei de Irê) e Oya (Iansã)
       </p>
-      <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4">
-
-          {orixas.map((orixa) => (
-
-            <OrixaButton
-              key={orixa.slug}
-              nome={orixa.nome}
-              slug={orixa.slug}
-              cor={orixasColors[orixa.slug as keyof typeof orixasColors]}
-            />
-
-          ))}
-
+      <div className="grid max-w-240 mx-auto grid-cols-2 gap-3 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-4">
+        {orixas.map((orixa) => (
+          <ContentCard
+            key={orixa.slug}
+            nome={orixa.nome}
+            href={`/orixas/${orixa.slug}`}
+            cardImage={getCardImagePath(orixa.slug)}
+          />
+        ))}
       </div>
 
       </main>

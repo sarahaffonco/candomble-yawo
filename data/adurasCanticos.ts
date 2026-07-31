@@ -191,14 +191,7 @@ A chuva é bastante para nós...
 A chuva se transforma no rio
 Certamente vossa chuva é o rio, para nós. `
     },
-    {
-        slug: "adura-iroko",
-        nome: "Adura Iroko",
-        adura: `ODARA ILE O ÌRÒKO
-ODARA ILE O ÒRISÁ ÌRÒKO
-ODARA ILE ODE KO ARO `,
-        traducao: ` `
-    },
+
     {
         slug: "adura-xango1",
         nome: "Adura Xangô 1",
@@ -320,7 +313,7 @@ Esforçando-me para não afundar na travessia do grande rio
 Lentamente como uma tartaruga trancada suplicando perdão `
     },
     {
-        slug: "adura-iemanja",
+        slug: "adura-yemanja",
         nome: "Adura Iemanjá",
         adura: `Yemonja gbé rere ku e sìngbà
 Gbà ní a gbè wí
@@ -428,4 +421,52 @@ E ele sobrevive, sobrevive, ó mãe muito velha.
 O sangue vivo que é recolhido pela terra cobre-se de fungos,
 E ele sobrevive, sobrevive, ó mãe muito velha`
     },
+    {
+        slug: "adura-iroko",
+        nome: "Adura Iroko",
+        adura: `Osa Iggi
+Iggi Olórun
+Oluwá otim
+Osa Iwin
+Oba Iggi
+Àtatú ni ti Iroko
+Iroko temi Baba  l’o ní ki mi se oríire
+Orí rere ni temi
+Iroko yíó gba t’èmi wí
+Iroko jé ki òrò temi ó se
+Baba Iroko p’èrò si mi nlé p’èrò si mi l’ónà
+Má jé ki won ó dan mí
+Àsùn dá ragbada lá à ba igi Iroko
+Iroko ki í dá tirè k’ó má se
+Iroko ki n ri se, ki n bimo,
+Iroko ki n lówó, ki n kólé
+Iroko k’o tún ìpín mi se
+Te ire mó mi lówó
+Ojó ikú, Ojó àrùn kóo gbè mí o
+Eso mí di oyin e má rojú si mi
+Iroko gbà mi o`,
+        traducao:`
+        Órìsà da árvore
+Árvore do senhor do céu
+Dono do aguardente
+Órìsà da família de Obatalà
+Rei das árvores
+Iroko nunca pode ser derrubado
+Meu pai Iroko disse que eu terei boa sorte
+A boa sorte é minha
+Iroko falará a meu favor
+Iroko permita que minhas palavras se realizem
+Meu pai Iroko traga-me paz em casa, traga-me paz no caminho
+Nunca deixe que atentem contra mim
+Sono profundo é o que encontramos na árvore Iroko
+Iroko nunca prediz uma coisa sem que ela se realize
+Iroko que eu possa progredir, que eu possa ter filhos
+Iroko que eu possa ter dinheiro, que eu possa construir casas
+Iroko faça meu comportamento ser bom
+Coloque boa sorte nas minhas mãos
+No dia da morte, no dia da doença, você tem de me salvar
+Considere-me como mel, não me despreze
+Iroko ampare-me`
+    }
+
 ];
