@@ -1,6 +1,10 @@
 import Header from "@/components/header";
+import { getCardImagePath } from "@/lib/cardImages";
+import ContentCard from "@/components/contentCard";
+import { itans } from "@/data/itans";
 
-export default function OrixasPage() {
+
+export default function ItansPage() {
   return (
     <div>
       <Header />
@@ -18,8 +22,21 @@ No Candomblé, os Itans não são vistos apenas como histórias ou lendas. Eles 
 Cada Itan carrega múltiplos ensinamentos e pode possuir diferentes versões, preservadas pelas diversas tradições e casas de axé. Essa diversidade não representa contradição, mas a riqueza de uma herança cultural transmitida de geração em geração. Conhecer os Itans é aproximar-se da história, da espiritualidade e da visão de mundo que moldam o Candomblé, valorizando uma tradição ancestral baseada no respeito aos Orixás, aos mais velhos, à natureza e à preservação do axé. Essa compreensão é essencial para quem deseja conhecer a religião de forma séria, respeitosa e fundamentada.`}
           </p>
 
+          <div className="grid max-w-240 mx-auto grid-cols-2 gap-3 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-4">
+                  {itans.map((itan) => (
+                    <ContentCard
+                      key={itan.slug}
+                      nome={itan.nome}
+                      href={`/itans/${itan.slug}`}
+                      cardImage={getCardImagePath(itan.slug)}
+                    />
+                  ))}
+                </div>
+
         
       </main>
     </div>
+    
   );
 }
+
