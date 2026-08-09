@@ -109,7 +109,7 @@ export default function SobreCandomble() {
             <div className="h-4" />
 
             <section>
-              <h3 className="mb-2 font-semibold">
+              <h3 className="subtitle mb-5">
                 A História da Nação Ketu: Marcos e Resistência
               </h3>
               <p>
@@ -152,7 +152,7 @@ export default function SobreCandomble() {
             <div className="h-4" />
 
             <section>
-              <h3 className="mb2 font-semibold">
+              <h3 className="subtitle mb-5">
                 Guardiãs da Memória: As Iyalorixás que Construíram o Candomblé
                 Ketu{" "}
               </h3>
@@ -239,7 +239,7 @@ export default function SobreCandomble() {
             <div className="h-4" />
 
             <section>
-              <h3 className="mb-2 font-semibold">
+              <h3 className="subtitle mb-5">
                 O Candomblé Como Cultura Viva
               </h3>
               <p>

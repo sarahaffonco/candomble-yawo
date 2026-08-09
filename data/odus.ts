@@ -189,7 +189,7 @@ O fogo: ligado à transformação e à energia intensa.
 A guerra: não apenas como conflito físico, mas como representação das batalhas enfrentadas durante a vida.
 O número 3: correspondente à manifestação de Ètà Ògúndá no jogo de búzios.
 Esses símbolos não significam que todo caminho sob Ètà Ògúndá esteja destinado à guerra. Eles indicam, sobretudo, a necessidade de enfrentar, cortar, separar, decidir e transformar.`,
-        orixas: `Embora existam diferenças entre casas e tradições, Èjì Oko costuma ser associado principalmente aos seguintes Orixás:Exu, Ogum e Obaluaye`,
+        orixas: `Embora existam diferenças entre casas e tradições, Ètà Ògúndá costuma ser associado principalmente aos seguintes Orixás:Exu, Ogum e Obaluaye`,
         caracteristicas: `Quando sua energia está em equilíbrio, Ètà Ògúndá pode representar:
 Coragem e determinação.
 Capacidade de superar obstáculos.
@@ -250,7 +250,7 @@ O número 4: correspondente à manifestação de Ìròsùn no jogo de búzios.
 Esses símbolos mostram que Ìròsùn está relacionado principalmente aos ciclos da existência, à ancestralidade e às forças que atuam abaixo daquilo que os olhos conseguem perceber.
 É um Odù de profundidade, memória e transformação.`,
 
-    orixas: `Embora existam diferenças entre casas e tradições, Èjì Oko costuma ser associado principalmente aos seguintes Orixás:Yemanjá e Oxossi`,
+    orixas: `Embora existam diferenças entre casas e tradições, Ìròsùn costuma ser associado principalmente aos seguintes Orixás:Yemanjá e Oxossi`,
 
     caracteristicas: `Quando sua energia está em equilíbrio, Ìròsùn pode representar:
 Profundidade e capacidade de reflexão.
@@ -383,7 +383,7 @@ Esses símbolos mostram que Òsé é um Odù relacionado àquilo que cresce, flo
 Mas também lembram que toda abundância exige cuidado.`,
 
 
-    orixas: `Embora existam diferenças entre casas e tradições, Èjì Oko costuma ser associado principalmente aos seguintes Orixás: Oxum, Iemanjá e Omolu`,
+    orixas: `Embora existam diferenças entre casas e tradições, Òsé costuma ser associado principalmente aos seguintes Orixás: Oxum, Iemanjá e Omolu`,
 
 caracteristicas: `Quando sua energia está em equilíbrio, Òsé pode representar:
 Fertilidade e capacidade de gerar.
@@ -559,7 +559,7 @@ Representa a capacidade de transformar a própria condição e utilizar aquilo q
 Sua prosperidade possui maior significado quando beneficia também aqueles que estão ao seu redor.`,
 
     
-    orixas: `Embora existam diferenças entre casas e tradições, Èjì Oko costuma ser associado principalmente aos seguintes Orixás: Xangô, Oxóssi`,
+    orixas: `Embora existam diferenças entre casas e tradições, Òbàrà costuma ser associado principalmente aos seguintes Orixás: Xangô, Oxóssi`,
 
     caracteristicas: `Quando sua energia está em equilíbrio, Òbàrà pode representar:
 Prosperidade e crescimento material.
@@ -746,7 +746,7 @@ Mas também representa a criação de uma nova vida.
 O silêncio pode significar isolamento.
 Mas também pode ser o espaço necessário para compreender aquilo que ainda não está pronto para ser revelado.`,
         
-    orixas: `Embora existam diferenças entre casas e tradições, Èjì Oko costuma ser associado principalmente aos seguintes Orixás:  Exu, Ogum, Oxossi, Obaluaye, Oxala e Yemanjá `,
+    orixas: `Embora existam diferenças entre casas e tradições, Òdì costuma ser associado principalmente aos seguintes Orixás:  Exu, Ogum, Oxossi, Obaluaye, Oxala e Yemanjá `,
  caracteristicas: `Quando sua energia está em equilíbrio, Òdì pode representar:
 Perseverança e resistência.
 Capacidade de suportar períodos difíceis.
@@ -884,7 +884,7 @@ Mesmo quando o caminho parece fechado, a vida continua procurando uma passagem.
             "Èjì Onílẹ̀ é um Odù profundamente ligado às origens, à ancestralidade e à força da memória. Ele lembra que a vida tem raízes, que é necessário respeitar a história e acolher os ensinamentos que vieram antes. Sua energia convida ao retorno ao centro, à estabilidade e ao fortalecimento da conexão com a própria linhagem.",
         simbolos: ``,
         
-    orixas: `Embora existam diferenças entre casas e tradições, Èjì Oko costuma ser associado principalmente aos seguintes Orixás:`,
+    orixas: `Embora existam diferenças entre casas e tradições, Èjì Onílẹ̀ costuma ser associado principalmente aos seguintes Orixás:`,
         caracteristicas: ``,
         itan: ``,
         ensinamento: ``
@@ -898,7 +898,7 @@ Mesmo quando o caminho parece fechado, a vida continua procurando uma passagem.
             "Òsá representa a inteligência aplicada à ação. Esse Odù fala da importância da estratégia, do foco e da capacidade de agir no momento certo. Sua energia mostra que a força sem consciência pode ser destrutiva, mas a força associada à sabedoria é capaz de transformar situações difíceis em caminhos de avanço.",
         simbolos: ``,
         
-    orixas: `Embora existam diferenças entre casas e tradições, Èjì Oko costuma ser associado principalmente aos seguintes Orixás:`,
+    orixas: `Embora existam diferenças entre casas e tradições, Òsá costuma ser associado principalmente aos seguintes Orixás:`,
         caracteristicas: ``,
         itan: ``,
         ensinamento: ``
@@ -912,7 +912,7 @@ Mesmo quando o caminho parece fechado, a vida continua procurando uma passagem.
             "Òfún é um Dos mais associados à calma, à esperança e à recuperação espiritual. Ele representa a possibilidade de restabelecer aquilo que foi afetado pelo tempo, pelo cansaço ou pela dor, trazendo alívio, paz e renovação. Sua mensagem é de equilíbrio, fé e confiança na continuidade da vida.",
         simbolos: ``,
         
-    orixas: `Embora existam diferenças entre casas e tradições, Èjì Oko costuma ser associado principalmente aos seguintes Orixás:`,
+    orixas: `Embora existam diferenças entre casas e tradições,Òfún costuma ser associado principalmente aos seguintes Orixás:`,
         caracteristicas: ``,
         itan: ``,
         ensinamento: ``
@@ -926,7 +926,7 @@ Mesmo quando o caminho parece fechado, a vida continua procurando uma passagem.
             "Òwónrín fala da necessidade de acompanhar o fluxo da vida sem se perder em uma rigidez excessiva. Ele reforça que a evolução acontece quando se aprende a adaptar-se, a ouvir o próprio caminho e a aceitar que tudo se transforma. Sua energia é de leveza, crescimento e maturidade prática.",
         simbolos: ``,
         
-    orixas: `Embora existam diferenças entre casas e tradições, Èjì Oko costuma ser associado principalmente aos seguintes Orixás:`,
+    orixas: `Embora existam diferenças entre casas e tradições, Òwónrín costuma ser associado principalmente aos seguintes Orixás:`,
         caracteristicas: ``,
         itan: ``,
         ensinamento: ``
@@ -940,7 +940,7 @@ Mesmo quando o caminho parece fechado, a vida continua procurando uma passagem.
             "Èjìlá Ṣebòrà é um Odù de grande densidade espiritual e de forte presença energética. Ele convida à reflexão sobre os limites da própria força e sobre o valor de usar essa força com sabedoria. Sua mensagem é de proteção, disciplina e cuidado com aquilo que se escolhe viver e transmitir.",
         simbolos: ``,
         
-    orixas: `Embora existam diferenças entre casas e tradições, Èjì Oko costuma ser associado principalmente aos seguintes Orixás:`,
+    orixas: `Embora existam diferenças entre casas e tradições, Èjìlá Ṣebòrà costuma ser associado principalmente aos seguintes Orixás:`,
         caracteristicas: ``,
         itan: ``,
         ensinamento: ``
@@ -954,7 +954,7 @@ Mesmo quando o caminho parece fechado, a vida continua procurando uma passagem.
             "Èjì Ologbòn representa a união entre a espiritualidade e a inteligência prática. Ele é um Odù que chama para a busca de verdade, para o estudo da vida e para o entendimento das relações entre o humano e o sagrado. Sua mensagem é de amadurecimento, discernimento e responsabilidade diante do próprio destino.",
         simbolos: ``,
         
-    orixas: `Embora existam diferenças entre casas e tradições, Èjì Oko costuma ser associado principalmente aos seguintes Orixás:`,
+    orixas: `Embora existam diferenças entre casas e tradições,Èjì Ologbòn costuma ser associado principalmente aos seguintes Orixás:`,
         caracteristicas: ``,
         itan: ``,
         ensinamento: ``
@@ -968,7 +968,7 @@ Mesmo quando o caminho parece fechado, a vida continua procurando uma passagem.
             "Ìká é um Odù que valoriza o silêncio, a introspecção e a capacidade de aprender com a própria experiência. Ele mostra que nem tudo precisa ser dito, nem tudo precisa ser feito de imediato. Sua energia orienta para a observação, o recolhimento e a compreensão mais profunda dos processos da vida.",
         simbolos: ``,
         
-    orixas: `Embora existam diferenças entre casas e tradições, Èjì Oko costuma ser associado principalmente aos seguintes Orixás:`,
+    orixas: `Embora existam diferenças entre casas e tradições, Ìká costuma ser associado principalmente aos seguintes Orixás:`,
         caracteristicas: ``,
         itan: ``,
         ensinamento: ``
@@ -982,7 +982,7 @@ Mesmo quando o caminho parece fechado, a vida continua procurando uma passagem.
             "Òbéogúndá é um Odù que fala da força do propósito e da importância de seguir com firmeza, mesmo diante das dificuldades. Ele mostra que a prosperidade nasce da disciplina, do esforço constante e da capacidade de transformar obstáculos em caminhos de crescimento. Sua energia é de construção, presença e confiança.",
         simbolos: ``,
         
-    orixas: `Embora existam diferenças entre casas e tradições, Èjì Oko costuma ser associado principalmente aos seguintes Orixás:`,
+    orixas: `Embora existam diferenças entre casas e tradições, Òbéogúndá costuma ser associado principalmente aos seguintes Orixás:`,
         caracteristicas: ``,
         itan: ``,
         ensinamento: ``
@@ -996,7 +996,7 @@ Mesmo quando o caminho parece fechado, a vida continua procurando uma passagem.
             "Àláfíà é o Odù da paz e da reconciliação. Ele representa o momento em que a vida encontra um espaço de serenidade, onde há equilíbrio entre o corpo, a mente e o espírito. Sua mensagem é de descanso, acolhimento, esperança e a possibilidade de construir relações mais abertas e luminosas.",
         simbolos: ``,
         
-    orixas: `Embora existam diferenças entre casas e tradições, Èjì Oko costuma ser associado principalmente aos seguintes Orixás:`,
+    orixas: `Embora existam diferenças entre casas e tradições, Àláfíà costuma ser associado principalmente aos seguintes Orixás:`,
         caracteristicas: ``,
         itan: ``,
         ensinamento: ``

@@ -57,7 +57,7 @@ export default function Odus() {
             constituem a base do Jogo de Búzios e da interpretação oracular.
           </p>
 
-        <div className="w-full max-w-4xl p-6 shadow-[0_10px_35px_rgba(76,35,12,0.16)] sm:p-8">
+        <div className="w-full max-w-4xl p-6  sm:p-8">
           <h2 className="title-card mb-6 text-center text-[#8b3a0f]">
             Os 16 Odus fundamentais
           </h2>

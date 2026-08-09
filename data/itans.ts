@@ -60,7 +60,7 @@ Olodumare, com sua sabedoria infinita, sorriu e perguntou:
 Os orixás responderam que sim. Então, Olodumare determinou:
 "A partir de hoje, Exu será o primeiro a comer. Quem quiser que suas preces cheguem até mim, quem quiser que seus pedidos sejam realizados e quem quiser que a energia circule, deverá oferecer primeiro a Exu. Se Exu não comer, ninguém comerá. Se Exu não for atendido, nada será concretizado.
 
-Este mito fundamenta a máxima iorubá: "Kò sí Èṣù, kò sí Òrìṣà" (Sem Exu, não há Orixá).`,
+`,
                 nomeitan4: `Criação e a Responsabilidade de Exu`,
                 itan4: `Dizem que, quando Olodumare decidiu criar o mundo e os seres humanos, ele precisava de alguém que fosse capaz de organizar o caos primordial e, ao mesmo tempo, garantir que as coisas não ficassem paradas.
 Olodumare convocou Exu e lhe deu a missão de cuidar do Àiyé (o mundo material). Ele entregou a Exu uma cabaça contendo o Àsé (axé), a energia vital. Olodumare disse: "Exu, tudo o que for criado precisará dessa energia para existir. Você é o encarregado de distribuir e mover essa energia por todos os lugares".
@@ -84,9 +84,8 @@ O Rei, boquiaberto, não podia acreditar. Exu entregou a peneira e disse:
         {
                 slug: "itan-ogun",
                 nome: "Itan Ogum",
-                nomeitan1: `Aqui está o texto formatado, com a pontuação corrigida, a fluidez ajustada e a remoção dos excessos:
-
-Ogum retorna a Irê e encontra o silêncio
+                nomeitan1: `Ogum retorna a Irê e encontra o silêncio`,
+                itan1: `
 O retorno do guerreiro
 Ogum era o mais velho e um dos mais poderosos filhos de Odudua, o conquistador e rei de Ifé. Guerreiro incansável, passou grande parte de sua vida em expedições e batalhas, conquistando territórios e levando os espólios de guerra para seu pai. Sua força era conhecida por todos. Ogum era aquele que abria caminhos com sua espada, aquele que enfrentava os inimigos sem recuar e aquele que transformava o ferro em instrumento de guerra, trabalho e sobrevivência.
 
@@ -409,13 +408,9 @@ Certo período, uma coisa terrível aconteceu. As mulheres da aldeia deixaram de
 
 O pedido
 Foram até a grande árvore. Mas ninguém ousava olhar diretamente para seu tronco. Formaram um círculo ao redor de Iroko, mantendo as costas voltadas para a árvore. Então começaram a pedir:
-
 "Iroko, queremos filhos."
-
 "Iroko, permita que nossas casas voltem a ter crianças."
-
 "Iroko, dê-nos descendentes."
-
 Iroko ouviu. E respondeu: "O que vocês me darão em troca?" As mulheres começaram a prometer presentes. Uma prometeu milho. Outra prometeu inhame. Outra prometeu frutas. Outra prometeu um cabrito. Outra prometeu um carneiro. Cada uma ofereceu aquilo que seu marido poderia fornecer. Mas havia entre elas uma mulher chamada Olurombi. Olurombi era esposa de um entalhador. Seu marido era pobre. Não possuía plantações abundantes. Não tinha muitos animais. Não tinha grandes riquezas. Ela não sabia o que poderia oferecer.
 
 A promessa de Olurombi
