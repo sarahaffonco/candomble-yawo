@@ -6,8 +6,6 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-[#f4c7a1] ">
       <Header />
-      
-
       <section className="mx-auto mt-24 grid w-full max-w-295 gap-10 px-4 pb-12 pt-30 md:grid-cols-[minmax(260px,420px)_minmax(0,1fr)] md:px-8 md:pt-24 lg:gap-14">
         <div className="flex items-center md:justify-end">
           <div className="relative w-full max-w-90 overflow-hidden rounded-[28px] shadow-2xl">
