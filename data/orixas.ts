@@ -813,7 +813,7 @@ Estratégia e Rancor: Nunca atacam de frente. Quando magoados, podem guardar ran
   },
   {
     slug: "ibeji",
-    imagem: "/images/orixas/ibeji.png",
+    imagem: "/images/orixas/Ibeji.png",
     nome: "Ibeji",
 
     descricao: `Orixás gêmeos que representam a pureza, a alegria, a inocência e o início da vida, sendo associados ao nascimento e à infância.`,

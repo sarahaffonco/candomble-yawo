@@ -2,6 +2,7 @@ import { notFound } from "next/navigation";
 import Image from "next/image";
 import { orixas } from "@/data/orixas";
 import Header from "@/components/header";
+import Link from "next/link";
 
 export default async function OrixaPage({
   params,
@@ -128,6 +129,12 @@ export default async function OrixaPage({
                 </article>
               ))}
             </section>
+                      <Link
+                        href="/orixas"
+                        className="mb-6 inline-block text-sm font-semibold uppercase tracking-[0.2em] text-[#9a3d15] transition hover:text-[#e75a18]"
+                      >
+                        ← Voltar para Orixas
+                      </Link>
           </div>
         </div>
       </main>

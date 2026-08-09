@@ -1,6 +1,7 @@
 import { notFound } from "next/navigation";
 import { itans } from "@/data/itans";
 import Header from "@/components/header";
+import Link from "next/link";
 
 export default async function itansPage({
   params,
@@ -18,10 +19,10 @@ export default async function itansPage({
   return (
     <div>
       <Header />
-      <main className="flex min-h-screen flex-col items-center bg-[#f4c7a1] px-4 py-10">
+      <main className="flex min-h-screen flex-col items-center px-4 py-10">
         <div className="h-4" />
-        <div className="w-full max-w-295 text-center">
-          <h1 className="title-section mx-auto mb-8 max-w-195 ">{itan.nome}</h1>
+        <div className="w-full max-w-295 justify-center text-center md:max-w-195">
+          <h1 className="title-section mx-auto items-center mb-8 max-w-195 ">{itan.nome}</h1>
         </div>
         <div className="h-4" />
 
@@ -47,6 +48,12 @@ export default async function itansPage({
           </p>
           <h2 className="mb-4  text-lg font-semibold">{itan.nomeitan5}</h2>
           <p className="whitespace-pre-line text-sm leading-7">{itan.itan5}</p>
+          <Link
+            href="/itans"
+            className="mb-6 inline-block text-sm font-semibold uppercase tracking-[0.2em] text-[#9a3d15] transition hover:text-[#e75a18]"
+          >
+            ← Voltar para Itans
+          </Link>
         </div>
       </main>
     </div>
