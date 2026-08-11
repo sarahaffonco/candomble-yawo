@@ -48,12 +48,6 @@ export default async function OduPage({
           </section>
           <div className="h-4" />
 
-          <section className="space-y-5">
-            <h2 className="mb-4 text-lg font-semibold">Simbolos</h2>
-            <p className="whitespace-pre-line text-sm leading-7">
-              {odu.simbolos}
-            </p>
-          </section>
           <div className="h-4" />
           <section className="space-y-5">
             <h2 className="mb-4 text-lg font-semibold">Orixas relacionados</h2>
