@@ -589,58 +589,396 @@ O ensinamento: A união dos dois forma uma combinação poderosa: a autoridade, 
         {
                 slug: "itan-oya",
                 nome: "Itan Oya ",
-                nomeitan1: ``,
-                itan1: ``,
-                nomeitan2: ``,
-                itan2: ``,
-                nomeitan3: ``,
-                itan3: ``,
-                nomeitan4: ``,
-                itan4: ``,
-                nomeitan5: ``,
-                itan5: ``
+                nomeitan1: `Oyá recebe de Obaluaiê o poder sobre os mortos`,
+                itan1: `Oyá e os Mistérios dos Eguns
+Antes de tornar-se conhecida como a grande senhora dos ventos e dos Eguns, Oyá era uma Orixá que buscava conhecer os poderes dos demais, tendo aprendido com diferentes divindades:
+
+Com Ogum: conheceu a espada e a guerra.
+
+Com Oxóssi: aprendeu os segredos da caça.
+
+Com Logunedé: conheceu as águas e a pesca.
+
+Com Exu: aprendeu sobre o fogo, os caminhos e os mistérios da transformação.
+
+A Busca pelo Conhecimento dos Mortos
+Mas Oyá ainda sentia que existia um conhecimento que não possuía: o conhecimento sobre os mortos.
+
+Ela procurou então Obaluaiê, aquele que conhecia os mistérios da doença, da cura, da vida e da morte, cujo corpo coberto pela palha escondia aquilo que não deveria ser visto por qualquer pessoa.
+
+O pedido: Oyá perguntou se poderia aprender com ele.
+
+O teste: Obaluaiê perguntou se ela realmente estava preparada.
+
+A resposta: Oyá respondeu que sim.
+
+Então, Obaluaiê mostrou-lhe aquilo que outros temiam: os Eguns.
+
+A Compreensão dos Ancestrais
+Oyá percebeu que os mortos não eram simplesmente seres a serem temidos. Eram ancestrais:
+
+Pais, mães, avós, reis, guerreiros.
+
+Pessoas que haviam deixado sua passagem pelo mundo.
+
+No entanto, ela também compreendeu que os mortos não poderiam simplesmente caminhar entre os vivos sem controle. Era necessário estabelecer limites:
+
+Aprendeu a reconhecer sua presença.
+
+Aprendeu a conduzi-los.
+
+Aprendeu a afastá-los quando necessário.
+
+Aprendeu a respeitar aquilo que pertencia ao mundo dos mortos.
+
+Ao final de seu aprendizado, Obaluaiê entregou a Oyá o eruexim — o instrumento feito com pelos ou rabo de animal utilizado simbolicamente para afastar e conduzir os Eguns. A partir daquele momento, Oyá tornou-se uma das grandes senhoras dos mistérios dos mortos.
+
+Oyá Igbalé e a Tradição
+Por isso, quando os Eguns se aproximam, Oyá não recua:
+
+Ela conhece seus caminhos.
+
+Ela conhece seus limites.
+
+Ela sabe quando devem permanecer e quando devem partir.
+
+É dessa tradição que surge uma das manifestações mais importantes de Oyá: Oyá Igbalé, ligada ao espaço e aos mistérios dos ancestrais.
+
+No culto de Egungun na Bahia, inclusive, há um assentamento de Oyá em sua qualidade de Igbalé no espaço sagrado relacionado aos Eguns, e ela é apresentada como a divindade feminina cultuada simultaneamente pelos adeptos e pelos próprios ancestrais.
+
+Ensinamento
+Este itan mostra que coragem não significa ausência de medo.
+
+Oyá não se tornou senhora dos mortos porque não conhecia o medo; ela tornou-se senhora dos mortos porque decidiu conhecer aquilo que os outros temiam.
+
+Seu ensinamento é sobre o respeito aos limites:
+
+A morte possui seus mistérios.
+
+O mundo dos vivos possui seus limites.
+
+O mundo dos ancestrais possui os seus.
+
+Oyá é aquela que conhece a fronteira entre os dois.`,
+                nomeitan2: `Oyá impede Xangô diante dos Eguns`,
+                itan2: `O Rei e a Senhora dos Ventos
+Xangô, acostumado a comandar, era um rei poderoso cujo domínio estava ligado à justiça, aos raios, ao fogo e ao trovão. Oyá, sua companheira, possuía outro tipo de autoridade, com seu poder firmado no movimento, nos ventos e nos mistérios dos mortos.
+
+Certa ocasião, Xangô precisou atravessar um espaço onde os Eguns estavam reunidos. Acreditando como rei que nenhum obstáculo poderia impedi-lo, caminhou em direção ao lugar. Mas Oyá estava diante da passagem e sabia que aquele espaço não pertencia aos vivos.
+
+O Confronto de Domínios
+Xangô avançou, mas Oyá não permitiu:
+
+Ela levantou seu eruexim.
+
+Os ventos começaram a soprar.
+
+Os Eguns se movimentaram.
+
+Xangô compreendeu que não estava diante de uma simples porta, mas sim de um limite sagrado.
+
+Tentou avançar novamente, mas Oyá fechou a passagem. Não era uma disputa entre marido e mulher, e sim uma questão de domínio: naquele espaço, não era o poder do rei que determinava quem entrava, mas o poder de Oyá sobre os mortos.
+
+O Reconhecimento da Força
+Xangô, então, precisou reconhecer aquilo que sua própria força não poderia dominar:
+
+O trovão não governa o vento.
+
+O fogo não governa os mortos.
+
+O rei dos vivos não pode simplesmente atravessar aquilo que pertence ao mundo ancestral.
+
+Oyá permaneceu diante da passagem até que o momento fosse adequado, permitindo somente então que o caminho fosse novamente aberto.
+
+Essa tradição se relaciona à ideia de que Oyá é aquela que controla e conduz os Eguns, enquanto o culto organizado de Egungun possui regras e espaços próprios. Em tradições preservadas no Brasil, Oyá Igbalé está diretamente ligada ao espaço sagrado dos ancestrais.
+
+Ensinamento
+Este itan mostra que cada força possui seu domínio:
+
+Xangô possui seu poder.
+
+Oyá possui o seu.
+
+Nenhum deles precisa ser menor para que o outro exista.
+
+A grande lição é o respeito aos limites. Até mesmo aquele que possui grande autoridade precisa reconhecer que existem lugares onde sua autoridade não se aplica.`,
+                nomeitan3: `Oyá e os nove filhos`,
+                itan3: `A Busca pela Maternidade
+Durante determinado período de sua vida, Oyá não conseguia ter filhos. Desejando profundamente a maternidade, procurou um babalawô para descobrir por que seu caminho estava fechado.
+
+A Consulta: O sacerdote consultou Ifá e revelou que existia um interdito (ewó) que Oyá precisava observar, pois ela não estava respeitando corretamente a proibição relacionada à carne de carneiro.
+
+O Ebó: Ifá determinou a realização de sacrifícios, incluindo uma grande quantidade de búzios, tecidos coloridos e carne de carneiro preparada conforme a orientação recebida.
+
+Oyá cumpriu as determinações e seu destino começou a mudar: ela engravidou e os filhos começaram a nascer.
+
+O Mistério dos Nove Filhos
+Havia, no entanto, algo estranhamente desafiador. Um a um, os primeiros oito filhos nasceram sem conseguir falar:
+
+Primeiro filho — Mudo
+
+Segundo filho — Mudo
+
+Terceiro filho — Mudo
+
+Quarto filho — Mudo
+
+Quinto filho — Mudo
+
+Sexto filho — Mudo
+
+Sétimo filho — Mudo
+
+Oitavo filho — Mudo
+
+Preocupada com essa condição, Oyá voltou a procurar o babalawô. Ifá revelou que ainda havia um caminho a ser cumprido e Oyá realizou novamente as prescrições indicadas.
+
+O Nono Filho: Ao nascer, este filho era diferente. Ele conseguia falar, mas sua voz não era como a voz das outras pessoas: era profunda, estranha, rouca e sobrenatural, ficando seu nome associado a Egungun.
+
+A tradição apresentada em fontes brasileiras identifica os nove filhos como Imalegã, Iorugã, Akugã, Urugã, Omorugã, Demó, Reigá, Heigá e Egungun, embora existam variações na grafia e na própria narrativa conforme a tradição.
+
+A Origem de Iansã e o Respeito dos Ancestrais
+Por causa dos nove filhos, Oyá passou a ser associada ao título Ìyá Mésàn ("Mãe dos Nove"), origem tradicionalmente relacionada ao nome Iansã.
+
+Havia ainda outro grande mistério: quando Egungun retornava para visitar seus descendentes, havia uma pessoa diante de quem ele demonstrava respeito especial — sua mãe, Oyá. Ela era aquela diante de quem o ancestral se curvava, transformando a senhora dos ventos também na mãe daquele que representa a própria ancestralidade.
+
+Ensinamento
+Este itan apresenta uma relação profunda entre maternidade e ancestralidade.
+
+Muito além da guerreira: Oyá não é somente a força dos ventos e da guerra; ela também é mãe, e seu filho Egungun estabelece a ponte definitiva entre os vivos e aqueles que vieram antes.
+
+Persistência diante dos obstáculos: A história ensina que um caminho que parece fechado não necessariamente está perdido. Oyá não desistiu diante das dificuldades: consultou, cumpriu as orientações, esperou e finalmente recebeu aquilo que buscava.`,
+                nomeitan4: `Oyá transforma-se em búfalo para proteger seus filhos`,
+                itan4: `O Encontro com Ogum e a Vida Humana
+Certa vez, enquanto estava na floresta, Oyá retirou sua pele de búfalo, escondeu-a e assumiu a forma humana. Foi então que encontrou Ogum.
+
+Ogum percebeu que havia algo extraordinário e não comum naquela mulher.
+
+Mesmo assim, os dois se aproximaram e Oyá passou a viver com ele.
+
+Ela teve filhos, mas mantinha seu segredo guardado, precisando esconder sua pele e seus chifres todos os dias.
+
+A Descoberta do Segredo e a Transformação
+As outras mulheres da casa perceberam que havia algo estranho, pois Oyá desaparecia em determinados momentos sem que ninguém soubesse para onde ia. Até que, em determinado dia, descobriram o esconderijo e encontraram a pele e os chifres de búfalo.
+
+Quando Oyá voltou e percebeu que seu segredo havia sido descoberto, sua natureza selvagem emergiu:
+
+Ela transformou-se novamente em búfalo e atacou aqueles que haviam revelado seu segredo.
+
+Mas, quando viu seus filhos, sua fúria diminuiu.
+
+Compreendendo que não poderia mais permanecer ali agora que seu segredo havia sido revelado, ela decidiu retornar para a floresta.
+
+O Presente de Proteção
+Antes de partir, porém, Oyá deixou aos filhos um sinal fundamental:
+
+Entregou-lhes seus chifres.
+
+Disse que, caso algum dia estivessem em perigo, deveriam bater um chifre contra o outro.
+
+Ela ouviria e, onde quer que estivesse, viria protegê-los.
+
+Essa narrativa explica tradicionalmente a presença dos chifres associados a Oyá e a ideia de que ela pode ser chamada para acudir seus filhos quando estão em perigo.
+
+Ensinamento
+Este itan revela características fundamentais da divindade:
+
+Proteção eterna: Oyá pode partir fisicamente, mas não abandona aqueles que são seus. O vento pode desaparecer do lugar onde estava, mas pode retornar sempre que é chamado.
+
+Respeito aos mistérios: A história fala sobre segredo e respeito, mostrando que existem aspectos de uma pessoa que não devem ser violados sem permissão, sob o risco de graves consequências.
+
+O laço materno: Acima de tudo, a narrativa demonstra a força indestrutível do vínculo entre mãe e filhos, deixando não apenas a casa, mas um canal direto para que possam chamá-la em momentos de necessidade.`,
+                nomeitan5: `Oyá, Xangô e a força que liberta da prisão`,
+                itan5: `Conta uma tradição que Xangô, em determinada ocasião, encontrava-se preso. O rei, que normalmente era aquele que dava ordens, estava agora impedido de agir. Suas forças não eram suficientes para romper a situação, e a prisão representava não apenas um lugar físico, mas uma condição de impotência. Xangô precisava de ajuda.
+
+A Tempestade que Rompe Barreiras
+Ao saber do que havia acontecido, Oyá não permaneceu esperando e foi em direção ao lugar onde Xangô estava preso.
+
+Ao chegar, percebeu que não seria possível simplesmente abrir a porta.
+
+Levantou então os olhos para o céu, fazendo o vento mudar e as nuvens se movimentarem.
+
+Oyá chamou os ventos e a tempestade começou a crescer, escurecendo o céu.
+
+Em seguida, vieram os raios: Oyá utilizou a própria força da tempestade para romper aquilo que mantinha Xangô preso. A prisão foi atingida, as barreiras foram destruídas e Xangô estava livre.
+
+Em algumas versões, a libertação de Xangô é associada diretamente ao poder do raio e da tempestade de Oyá; a tradição também aparece entre os mitos de Xangô e Oyá registrados na literatura sobre os Orixás.
+
+A Compreensão da Parceria
+Ao olhar para Oyá, Xangô compreendeu que, mais uma vez, sua força havia dependido da força daquela que caminhava ao seu lado:
+
+Ela não era apenas sua esposa.
+
+Era sua companheira de guerra.
+
+Sua aliada, aquela que podia chegar onde ele não conseguia.
+
+Ensinamento
+Este itan mostra que força não significa fazer tudo sozinho.
+
+Humildade e Interdependência: Xangô era rei, possuía o trovão, o raio e a autoridade, mas ainda assim precisou de Oyá.
+
+A Sinergia das Forças: A parceria entre os dois mostra que diferentes forças trabalham juntas — o trovão precisa do céu, o raio anuncia a tempestade, o vento movimenta as nuvens, e a força de um desperta a força do outro.
+
+Companheirismo Real: A história lembra que nem sempre aquele que está ao nosso lado será apenas alguém que seguirá ordens; às vezes, será justamente aquele que terá a coragem de nos salvar quando nossa própria força não for suficiente.`
         },
         {
                 slug: "itan-oba",
                 nome: "Itan Oba ",
-                nomeitan1: ``,
-                itan1: ``,
-                nomeitan2: ``,
-                itan2: ``,
-                nomeitan3: ``,
-                itan3: ``,
-                nomeitan4: ``,
-                itan4: ``,
-                nomeitan5: ``,
-                itan5: ``
+                nomeitan1: `Obá e a Orelha: O Engano de Oxum`,
+                itan1: `Obá era uma grande guerreira. Conhecia a espada, sabia lutar e não tinha medo de enfrentar aqueles que se colocavam diante dela. Mas havia algo que a fazia sofrer: sendo uma das esposas de Xangô, sentia-se insegura dentro de sua própria casa.
+
+A Comparação: Xangô demonstrava grande admiração por Oyá, com quem compartilhava as guerras e aventuras, além de possuir enorme encantamento por Oxum, cuja beleza e delicadeza eram conhecidas.
+
+O Ciúme: Sentindo-se inferiorizada, Obá questionava por que não era olhada da mesma maneira, transformando seu sentimento em ciúme e no desejo de descobrir o segredo de Oxum.
+
+O Engano e a Mutilação
+Ao perguntar a Oxum como fazia para conquistar tanto o coração de Xangô, Oxum percebeu sua fragilidade e a enganou. Disse-lhe que havia cortado uma parte de sua própria orelha e colocado no alimento preparado para o marido como prova máxima de amor.
+
+Acredita na mentira, Obá entra na cozinha para preparar o amalá e, tomada pela convicção de que precisava provar seu amor, corta uma de suas próprias orelhas e a coloca na comida de Xangô.
+
+Ao ver o prato, Xangô fica horrorizado, enxergando sofrimento e mutilação em vez de amor.
+
+Oxum aparece em seguida, retira o pano da cabeça e mostra suas duas orelhas intactas.
+
+A Fúria e a Transformação em Rio
+A vergonha transforma-se em fúria. Obá avança contra Oxum, as duas começam a lutar e Xangô, furioso, intervém com sua autoridade. Ambas fogem e acabam se transformando em rios, cujas águas carregam para sempre a memória dessa rivalidade.
+
+É por isso que, em determinadas casas, durante a dança de Obá, uma de suas orelhas permanece coberta, recordando a história de sua mutilação e o sofrimento daquele episódio.
+
+Ensinamento: Obá não é apresentada simplesmente como uma mulher ingênua, mas como uma guerreira que deixou a insegurança destruir sua percepção de valor. O itan mostra que o ciúme pode fazer alguém acreditar erroneamente que precisa provar seu amor através do sofrimento. Ela já possuía sua própria dignidade e não precisava mutilar o corpo ou competir com outras para ser amada.`,
+                nomeitan2: `Obá, a Guerreira que Enfrentava os Orixás`,
+                itan2: `Antes de ser lembrada principalmente como uma das esposas de Xangô, Obá já carregava uma reputação incontestável de guerreira.
+
+Força e Respeito: Não era uma mulher frágil; conhecia a espada e o escudo, não dependia de ninguém e sua coragem fazia com que muitos a temessem.
+
+O Combate com Ogum: Em uma de suas tradições, enfrentou Ogum, o grande guerreiro do ferro. Após uma longa e árdua batalha onde Obá demonstrou enorme força, Ogum precisou usar sua inteligência para vencê-la. No fim, Obá reconheceu sua habilidade e os dois passaram a ter uma relação de respeito.
+
+Tradições sobre Obá relatam vitórias e combates contra diferentes Orixás, lembrando que, antes da mulher ferida pelo ciúme, existe a guerreira que enfrentava adversários de igual para igual.
+
+Ensinamento: A história de Obá possui dor, mas também muita força. Sua derrota diante de determinados adversários não elimina seu valor; pelo contrário, mostra que até os grandes guerreiros precisam reconhecer seus limites. A verdadeira coragem não está em vencer todas as batalhas, mas em ter força para enfrentar o que é preciso e humildade para reconhecer a habilidade alheia.`,
+                nomeitan3: `Obá e Xangô: A Guerreira que Se Apaixonou pelo Rei`,
+                itan3: `Obá não era uma mulher acostumada a admirar homens, pois conhecia sua própria força e era capaz de lutar por si mesma. Tudo mudou, no entanto, quando conheceu Xangô.
+
+O rei possuía autoridade, voz poderosa, força e coragem — qualidades que Obá reconhecia e desejava ter ao seu lado.
+
+Sendo, em algumas tradições, sua primeira esposa, ela passou a viver em seu reino, preparando seus alimentos e acompanhando sua vida sem deixar de ser guerreira.
+
+O conflito interno surgiu com a presença das outras mulheres (Oyá e Oxum), fazendo com que a mulher que não temia inimigos passasse a temer a perda do amor de um homem, direcionando sua força contra si mesma.
+
+Ensinamento: O mito apresenta a dimensão mais humana de Obá: a força exterior não blinda contra a fragilidade interior. Ela sabia lutar em campos de batalha, mas não sabia como lidar com a sensação de rejeição, alertando para o perigo de permitir que a comparação destrua a própria identidade.`,
+                nomeitan4: `Obá e o Rio de Águas Revoltas`,
+                itan4: `Tomada por tristeza, raiva e vergonha após a disputa com Oxum, Obá abandonou sua casa e caminhou por campos e florestas até chegar a uma região onde as águas corriam com enorme força.
+
+Ao observar as corredeiras batendo contra as pedras e contornando obstáculos, ela percebeu que elas carregavam sua própria história.
+
+Entrando nas águas, seu corpo transformou-se e a guerreira tornou-se o rio Obá.
+
+As águas de Obá permaneceram agitadas, fortes e ativas, afluentes do rio Oxum na região de Oió, na Nigéria.
+
+Ensinamento: Uma experiência dolorosa não precisa representar o fim. A dor pode transformar-se em movimento e a derrota em permanência. Quando perdemos ou somos feridos, podemos transformar essa energia no impulso necessário para continuar caminhando.`,
+                nomeitan5: `Obá, Xangô e a Prova de Lealdade`,
+                itan5: `Em outra tradição, Xangô precisou partir para uma guerra para defender seu reino ameaçado.
+
+Obá pegou sua espada, preparou seu escudo e recusou-se a ficar em casa.
+
+Durante o combate, lutou bravamente ao lado de Xangô como qualquer outro guerreiro, garantindo a proteção do reino.
+
+Para ela, apoiar o homem que amava era uma obrigação e uma escolha firme para todos os momentos, fossem de glória ou de guerra.
+
+Ensinamento: Este itan resgata a faceta da lealdade e da resistência inabalável de Obá. No entanto, deixa uma reflexão profunda: até onde deve ir a lealdade? Ela não precisava sacrificar o próprio corpo ou competir para provar seu amor, pois sua força e presença já eram suficientes por si mesmas.`
         },
         {
                 slug: "itan-oxum",
                 nome: "Itan Oxum ",
-                nomeitan1: ``,
-                itan1: ``,
-                nomeitan2: ``,
-                itan2: ``,
-                nomeitan3: ``,
-                itan3: ``,
-                nomeitan4: ``,
-                itan4: ``,
-                nomeitan5: ``,
-                itan5: ``
+                nomeitan1: `Oxum Acaba com um Exército`,
+                itan1: `Certa vez, um grande exército foi enviado para conquistar o território onde Oxum vivia. Numerosos, armados e organizados, os guerreiros acreditavam que nenhum grupo seria capaz de resistir àquela força. Quando chegaram, porém, encontraram apenas Oxum diante das águas e julgaram que seria uma conquista fácil.
+
+A Estratégia da Palavra: Sem levantar espada ou convocar guerreiros, Oxum utilizou sua inteligência. Aproximou-se dos soldados e começou a conversar com doçura: perguntou sobre suas famílias, suas origens, e descobriu que muitos estavam ali apenas por obrigação e ordens.
+
+A Desarticulação: Utilizando sua palavra, beleza e capacidade de convencimento, a unidade do exército desmoronou gradualmente. Soldados questionaram a guerra, abandonaram as armas ou se afastaram.
+
+Quando os comandantes perceberam, o exército já havia perdido sua força e união. Oxum derrotou uma força militar sem violência, provando que a estratégia supera o confronto direto.
+
+Ensinamento: A delicadeza e a beleza de Oxum não significam fraqueza ou submissão. Enquanto os outros olhavam para a quantidade de armas, ela olhava para as pessoas. O mito ensina que compreender o adversário e desarmar o inimigo por dentro pode ser muito mais poderoso do que combatê-lo diretamente.`,
+                nomeitan2: `Oxum e os Orixás que Não Conseguiam Criar`,
+                itan2: `Conta-se que, certa vez, os Orixás receberam a grande tarefa de organizar o mundo. Os Orixás masculinos iniciaram o trabalho confiando em sua força, conhecimento e ferramentas, mas a criação simplesmente não avançava e eles falhavam repetidamente.
+
+A Consulta a Orunmilá: Ao consultarem Ifá, receberam a resposta de que uma força havia sido deixada de fora: Oxum. A participação feminina era indispensável.
+
+A Manifestação da Vida: Quando Oxum finalmente foi chamada e chegou ao local, a situação mudou instantaneamente. A fertilidade apareceu, as águas correram, as sementes germinaram, as mulheres puderam gerar filhos e a criação encontrou seu equilíbrio.
+
+Ensinamento: Este itan revela que a fertilidade de Oxum vai muito além da biologia; ela representa a capacidade vital de fazer nascer ideias, famílias, comunidades e projetos. É também uma crítica direta à arrogância de se acreditar capaz de fazer tudo sozinho, lembrando que a criação exige complementaridade entre forças.`,
+                nomeitan3: `Oxum e Exu: Quando a Água Doce Precisou Aprender a Negociar`,
+                itan3: `Certa vez, Oxum precisava atravessar uma região controlada por Exu, mas ele não permitia sua passagem. Embora pudesse tentar usar a força ou discutir, ela sabia que nenhuma dessas opções seria inteligente.
+
+A Diplomacia: Oxum sentou-se diante de Exu e começou a conversar. Enquanto ele perguntava, provocava e tentava irritá-la, ela permaneceu calma, respondendo com astúcia.
+
+O Reconhecimento: Percebendo que Exu não precisava ser derrotado, mas sim respeitado e reconhecido em seu poder sobre os caminhos, Oxum ofereceu o que lhe era devido. Imediatamente, Exu abriu a passagem e ela seguiu sua jornada.
+
+Ensinamento: A diplomacia é uma das marcas registradas de Oxum. Ela entende que portas difíceis não se abrem com força bruta, mas com respeito e inteligência. Saber conversar, discernir para quem, quando e como falar constitui uma forma formidável de poder.`,
+                nomeitan4: `Oxum e o Segredo da Gravidez`,
+                itan4: `Em determinado período, muitas mulheres desejavam ter filhos, mas não conseguiam engravidar. Oferendas e preces eram feitas aos Orixás, sem que nada mudasse, até que Oxum observou a situação.
+
+A Busca pela Orientação: Sabendo que a fertilidade envolvia profundas forças espirituais e mistérios além da mera vontade, Oxum consultou o oráculo e cumpriu as oferendas determinadas.
+
+O Ensino e a Proteção: De posse do conhecimento, ela passou a orientar as mulheres sobre os cuidados necessários. A fertilidade retornou, as crianças nasceram e a alegria voltou aos lares. Compreendendo que sua sabedoria não devia ficar oculta, assumiu a guarda da gestação, da maternidade e da infância.
+
+Ensinamento: O poder traz responsabilidade; possuir conhecimento exige saber o momento de compartilhá-lo. Oxum simboliza o cuidado vigilante com tudo o que ainda está em processo de nascimento e crescimento.`,
+                nomeitan5: `Oxum e o Espelho: A Mulher que Conhecia o Próprio Valor`,
+                itan5: `Caminhando pelas margens do rio com seu espelho, muitos podiam interpretar o objeto como mero sinal de vaidade. No entanto, o espelho possuía um significado muito mais profundo.
+
+A Consciência de Si: Ao olhar para seu reflexo — rosto, corpo, cabelos e vestes —, Oxum não estava apenas admirando sua beleza física. Ela estava reconhecendo quem era e validando o próprio axé.
+
+A Força Própria: Ela sabia que não precisava vestir-se como Ogum, empunhar a espada de Xangô ou caçar como Oxóssi. Seu poder residia nas águas, na palavra, na inteligência, na sedução, no cuidado e na diplomacia.
+
+Ensinamento: Há uma grande distância entre vaidade e a plena consciência de si. Oxum ensina que conhecer o próprio valor blinda a pessoa contra manipulações externas. Quem tem clareza de quem é não precisa gritar para ser ouvido nem lutar o tempo todo para ser respeitado; sua presença por si só basta.`
         },
         {
                 slug: "itan-ibeji",
                 nome: "Itan Ibeji ",
-                nomeitan1: ``,
-                itan1: ``,
-                nomeitan2: ``,
-                itan2: ``,
-                nomeitan3: ``,
-                itan3: ``,
-                nomeitan4: ``,
-                itan4: ``,
-                nomeitan5: ``,
-                itan5: ``
+                nomeitan1: `Ibeji e a Aldeia que Perdeu a Alegria`,
+                itan1: `Conta um antigo itan que, certa vez, uma aldeia começou a passar por um período de grande tristeza: as crianças já não brincavam, os adultos trabalhavam em silêncio e as famílias haviam perdido a alegria das festas, embora a comida, os campos e os animais continuassem sendo cuidados normalmente.
+
+A Exceção na Aldeia: Dois irmãos gêmeos, inseparáveis e conhecidos por suas travessuras (correr, esconder objetos e rir ao serem descobertos), eram as únicas pessoas que ainda encontravam motivos para sorrir.
+
+A Cura pelo Sorriso: Eles começaram a visitar as casas onde havia tristeza, fazendo brincadeiras, cantando, dançando e oferecendo doces. Pouco a pouco, as pessoas voltaram a sorrir, percebendo que a alegria das crianças havia devolvido a vida à comunidade.
+
+Ensinamento: A criança não representa apenas inocência, mas renovação, enxergando possibilidades onde o adulto vê apenas problemas. Ibeji está associado a tudo o que nasce, começa ou recomeça (uma nascente, o nascimento, o germinar, um novo ciclo), ensinando que a alegria também pode ser uma forma de resistência.`,
+                nomeitan2: `Táíwò e Kéhìndé: Aquele que Chega Primeiro e Aquele que Observa`,
+                itan2: `Entre os mistérios de Ibeji está a relação entre os irmãos Táíwò e Kéhìndé.
+
+A Ordem de Chegada e a Antiguidade Espiritual: Táíwò nasce primeiro, sendo aquele que experimenta e verifica se o mundo está preparado. Kéhìndé nasce depois, mas acredita-se espiritualmente que ele seja o mais velho, pois permanece mais tempo no ventre e envia o irmão para observar antes.
+
+A Ligação Profunda: Os gêmeos não são vistos como indivíduos separados; existe uma ligação profunda onde a alegria ou a tristeza de um repercute diretamente no outro, exigindo cuidados especiais da família ao receber essa dupla manifestação sagrada.
+
+Ensinamento: Este itan fala sobre a dualidade. Coisas que parecem opostas (dia e noite, nascimento e morte, movimento e espera) precisam uma da outra e pertencem à mesma unidade. Ibeji ensina que as diferenças não significam separação, mas que forças diferentes existem plenamente apenas quando estão juntas.`,
+                nomeitan3: `Ibeji e a Criança que Morreu`,
+                itan3: `Nas sociedades iorubás tradicionais, o nascimento de gêmeos era cercado de profundo significado espiritual, pois acreditava-se que possuíam uma ligação tão intensa que a morte de um poderia afetar gravemente o outro.
+
+A Doença do Sobrevivente: Quando uma mãe perdeu um de seus gêmeos, o sobrevivente começou a adoecer e perder a alegria, chamando constantemente pelo irmão.
+
+A Imagem de Continuidade: Para curar esse vazio, a tradição indicava que era necessário manter a presença simbólica de quem partiu através de uma pequena imagem, recebendo alimentos e cuidados regulares para preservar o vínculo.
+
+Em algumas tradições iorubás, cada gêmeo é representado por uma imagem diante da qual são feitas oferendas, preservando a ligação e a benevolência de Ibeji.
+
+Ensinamento: A morte não apaga automaticamente os vínculos, e a pessoa que partiu continua fazendo parte da história dos que ficaram. Ibeji ensina sobre a necessidade de cuidar da memória, mantendo a permanência e o respeito por aquilo que existiu.`,
+                nomeitan4: `Ibeji e a Criança que Enganou a Morte`,
+                itan4: `Certa vez, uma grande desgraça aproximou-se da comunidade e a morte começou a levar muitas pessoas. Enquanto todos buscavam soluções baseados no pavor e no desespero, os dois Ibeji decidiram agir de outra forma.
+
+O Confronto com a Música: Pegando seus tambores, os gêmeos começaram a tocar, dançar, cantar e brincar. Curiosa, a morte aproximou-se para ver de onde vinha o som.
+
+A Força da Continuidade: A morte esperava que eles parassem, mas a música e a dança continuavam incansáveis. Irritada, percebeu que não conseguiria vencê-los pelo medo, pois eles não lutavam com armas, mas com a própria continuidade da vida. Sem poder vencê-los, a morte partiu.
+
+Ensinamento: O itan possui um sentido simbólico. A morte faz parte da existência, mas a vida possui sua própria força de renovação. Enquanto uma criança nasce, brinca e imagina novas possibilidades ("E se?"), a história continua a ser escrita.`,
+                nomeitan5: `Ibeji e o Tambor que Trouxe a Alegria de Volta`,
+                itan5: `Chegando a uma região onde os moradores estavam cansados e haviam perdido a esperança, dois irmãos gêmeos observaram o cenário. Sem espadas ou riquezas, eles tinham apenas seus tambores.
+
+O Despertar: Começaram a tocar e, pouco a pouco, as crianças se aproximaram para dançar, seguidas pelos adultos que voltaram a sorrir e cantar.
+
+A Cura Coletiva: A praça encheu-se de memórias de antigas festas e do reconhecimento de que ainda estavam vivos. Quando a noite chegou e os gêmeos partiram discretamente, a alegria e a esperança já haviam permanecido na comunidade.
+
+Ensinamento: A alegria não significa ignorar o sofrimento, mas não permitir que ele ocupe todo o espaço. Ibeji lembra que, embora existam momentos para chorar e lutar, uma comunidade que perde a capacidade de celebrar e cantar perde também uma parte vital de sua própria força.`
         },
         {
                 slug: "itan-ewa",
