@@ -22,7 +22,9 @@ export default async function itansPage({
       <main className="flex min-h-screen flex-col items-center px-4 py-10">
         <div className="h-4" />
         <div className="w-full max-w-295 justify-center text-center md:max-w-195">
-          <h1 className="title-section mx-auto items-center mb-8 max-w-195 ">{itan.nome}</h1>
+          <h1 className="title-section mx-auto items-center mb-8 max-w-195 ">
+            {itan.nome}
+          </h1>
         </div>
         <div className="h-4" />
 
