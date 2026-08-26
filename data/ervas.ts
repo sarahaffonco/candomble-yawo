@@ -1,0 +1,155 @@
+export const ervas = [
+  {
+    nome: "Abacate",
+    nomeCientifico: "Persea americana",
+    imagem: "/images/herbario/abacate.jpeg",
+    descricao: `É considerada uma erva morna ou equilibradora, com efeitos medicinais com ações antissépticas, digestivas, anti-inflamatória e antioxidante.`,
+    caracteristicas: `Seus verbos de ação são: Equilibrar, revitalizar e reconstruir.`,
+    usoTradicional: `Geralmente as folhas são utilizadas em banhos, bate folhas, emplastos, a fruta como alimento medicinal.`,
+    orixas: "Oxóssi e, em algumas tradições, Ossain",
+    observacoes: `A bibliografia consultada não relata efeitos colaterais decorrentes do uso do abacate.`,
+  },
+  {
+    nome: "Abre Caminho",
+    nomeCientifico: "Justicia Gendarusal",
+    imagem: "/images/herbario/abrecaminho.jpeg",
+    descricao: `Tambem conhecida como vence tudo, quebra demanda e quebra tudo. 
+    É considerada uma erva quente, poderoso quebrador de demanda e magias, também tendo ação de abrir caminho, sorte e visão de ooprtunidades.`,
+    caracteristicas: `Seus verbos de ação são: Abrir, quebrar, eliminar, proteger e limpar.`,
+    usoTradicional: `Seu uso tradicional é em banhos, defumações, fundamentos e rituais de limpeza e proteção.`,
+    orixas: `Ogum`,
+    observacoes: `A bibliografia consultada relata efeitos colaterais de ser alucinógeno.`
+
+  },
+  {
+    nome: "AÇUCENA",
+    nomeCientifico: "Hippeastrum hybridum",
+    imagem: "/images/herbario/acucena.jpeg",
+    descricao: `É considerada uma erva fria calmante, tem a ação especifica de limpeza e medicinal`,
+    caracteristicas: `Seus verbos de ação são: Limpar, acalmar, purificar.`,
+    usoTradicional: `Seu uso tradicional é em banhos, defumações, fundamentos e rituais de limpeza`,
+    orixas: " Oxum",
+    observacoes: `A bibliografia consultada relata que a flor da AÇUCENA é muito tóxica, podendo sua ingestão causar severa desordem gastrintestinal, convulsões, calafrios, hipotensão, dermatite, tremores musculares,arritmias cardíacas e até causar a morte.`,
+  },
+    {
+    nome: "Akoko",
+    nomeCientifico: "Newbouldia laevis",
+    imagem: "/images/herbario/akoko.png",
+    descricao: `É  uma das árvores e folhas mais sagradas e reverenciadas dentro do Candomblé e dos cultos de matriz africana, frequentemente chamada de "a folha dos reis" ou "a folha do título. Considerada uma folha neutra ou morna `,
+    caracteristicas: `Seus verbos de ação são: Prosperar, coroar, multiplicar, revitalizar, legitimar e consagrar`,
+    usoTradicional: `Seu uso tradicional é em banhos e fundamentos`,
+    orixas: `Ogum, Oxóssi, Osanyin e Oyá`,
+    observacoes: `A bibliografia consultada relata que a folha pode causar irritações gastrointestinais, enjoos ou mal-estar.`,
+
+  },
+  {
+    nome: "ALECRIM",
+    nomeCientifico: "Rosmarinus officinalis",
+    imagem: "/images/herbario/alecrim.png",
+    descricao: `É considerada uma erva morna ou equilibradora, considerada a erva da alegria`,
+    caracteristicas: `Seus verbos de ação são: Alegrar, equilibrar, purificar,  rejuvenescer e limpar.`,
+    usoTradicional: `Seu uso tradicional é em banhos energéticos e de descarrego, chás, em bate folhas e em maçarocada de ervas.`,
+    orixas: `Oxalá, Oxossi, Ibeji`,
+    observacoes: `A bibliografia consultada relata que seu consumo deve ser evitado por gestantes; que em doses elevadas
+pode provocar irritações gastrintestinais, nefrite, intoxicação, aborto e irritações na pele.`,
+  },
+    {
+    nome: "Alface",
+    nomeCientifico: "Lactuca sativa",
+    imagem: "/images/herbario/alface.png",
+    descricao: `É considerada uma erva fria ou calmante, seu nome provém da seiva leitosa.`,
+    caracteristicas: `Seus verbos de ação são: acalmar e relaxar`,
+    usoTradicional: `Seu uso tradicional é medicinal em infusões e chás`,
+    orixas: `Oxum`,
+    observacoes: `A bibliografia consultada relata que seu consumo excessivo pode incluir sudorese, taquipnéia, taquicardia, dilatação da pupila, tontura, zumbidos e sonolência.`,
+
+  },
+    {
+    nome: "ALFAVACA",
+    nomeCientifico: "Ocimum gratissimum L.",
+    imagem: "/images/herbario/aroeira.png",
+    descricao: `Também, conhecida como: alfavaca-de cobra, paritária, erva das muralhas, erva fura paredes, erva de Nossa Senhora, erva dos muros, favaca, favaca de cobra, helxina, cobrinha, coleirinha, paletaina, palitaina, paleiro, urtiga mansa. É considerada uma erva morna e equilibradora.`,
+    caracteristicas: `Seus verbos de ação são: curar, manter e potencializar`,
+    usoTradicional: `Seu uso tradicional é em banhos, defumações, fundamentos e maçarocada de ervas, contém tamém propriedades medicinais utilizadas em chás`,
+    orixas: ``,
+    observacoes: `A bibliografia consultada relata que seu consumo excessivo pode causar palpitações, sudorese intensa, hipoglicemia severa, confusão, tontura, cefaleia.`,
+
+  },
+    {
+    nome: "",
+    nomeCientifico: "",
+    imagem: "/images/herbario/aroeira.png",
+    descricao: ``,
+    caracteristicas: ``,
+    usoTradicional: ``,
+    orixas: ``,
+    observacoes: ``,
+
+  },
+    {
+    nome: "",
+    nomeCientifico: "",
+    imagem: "/images/herbario/aroeira.png",
+    descricao: ``,
+    caracteristicas: ``,
+    usoTradicional: ``,
+    orixas: ``,
+    observacoes: ``,
+
+  },
+    {
+    nome: "",
+    nomeCientifico: "",
+    imagem: "/images/herbario/aroeira.png",
+    descricao: ``,
+    caracteristicas: ``,
+    usoTradicional: ``,
+    orixas: ``,
+    observacoes: ``,
+
+  },
+    {
+    nome: "",
+    nomeCientifico: "",
+    imagem: "/images/herbario/aroeira.png",
+    descricao: ``,
+    caracteristicas: ``,
+    usoTradicional: ``,
+    orixas: ``,
+    observacoes: ``,
+
+  },
+  {
+    nome: "Arruda",
+    nomeCientifico: "Ruta graveolens",
+    imagem: "/images/herbario/arruda.png",
+    descricao: "Descrição da erva ficará aqui. Posteriormente podemos desenvolver o conteúdo com base nas fontes que você estiver utilizando.",
+    caracteristicas: "Descrição da erva ficará aqui. Posteriormente podemos desenvolver o conteúdo com base nas fontes que você estiver utilizando.",
+    usoTradicional: "Geralmente utilizada em banhos e fundamentos.",
+    orixas: "Òsányìn",
+    observacoes: ``,
+
+  },
+  {
+    nome: "Aroeira",
+    nomeCientifico: "Schinus terebinthifolia",
+    imagem: "/images/herbario/aroeira.png",
+    descricao: "Descrição da erva ficará aqui. Posteriormente podemos desenvolver o conteúdo com base nas fontes que você estiver utilizando.",
+    caracteristicas: "Descrição da erva ficará aqui. Posteriormente podemos desenvolver o conteúdo com base nas fontes que você estiver utilizando.",
+    usoTradicional: "Geralmente utilizada em banhos e fundamentos.",
+    orixas: "Òsányìn",
+    observacoes: ``,
+
+  },
+  {
+    nome: "",
+    nomeCientifico: "",
+    imagem: "/images/herbario/aroeira.png",
+    descricao: ``,
+    caracteristicas: ``,
+    usoTradicional: ``,
+    orixas: ``,
+    observacoes: ``,
+
+  },
+];
