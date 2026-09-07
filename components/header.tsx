@@ -215,7 +215,7 @@ export default function Header() {
                 Candomblé
               </strong>
               <span className="mt-2 block text-xs font-semibold uppercase text-[#ffca6a] md:text-sm">
-                Ancestralidade • Fé • Cultura
+                Ancestralidade & Cultura
               </span>
             </div>
 

@@ -1,9 +1,63 @@
 @import "tailwindcss";
 
 .herbarium-main {
-  height: calc(100vh - 225px);
-  min-height: 0;
-  overflow: hidden;
+  min-height: calc(100vh - 225px);
+}
+
+.herbarium-summary-line {
+  width: 110px;
+  height: 1px;
+  margin: 12px auto 0;
+  background: #a87532;
+}
+
+.herbarium-summary {
+  padding: 24px 28px 32px;
+}
+
+.herbarium-summary h1 {
+  margin-top: 18px;
+}
+
+.herbarium-summary-left {
+  padding-right: 42px;
+}
+
+.herbarium-summary-right {
+  padding-left: 42px;
+}
+
+.herbarium-summary ol {
+  width: 100%;
+  margin-inline: 14px;
+  width: calc(100% - 28px);
+}
+
+.herbarium-summary li {
+  padding-inline: 10px;
+}
+
+@media (min-width: 768px) {
+  .herbarium-summary {
+    padding-top: 30px;
+  }
+
+  .herbarium-summary h1 {
+    margin-top: 24px;
+  }
+
+  .herbarium-summary ol {
+    margin-inline: 18px;
+    width: calc(100% - 36px);
+  }
+
+  .herbarium-summary-left {
+    padding-left: 34px;
+  }
+
+  .herbarium-summary-right {
+    padding-right: 34px;
+  }
 }
 
 .herbarium-book {
@@ -285,22 +339,6 @@ perspective: 1800px;
   min-width: 0;
   max-width: 100%;
   overflow-x: hidden;
-  overflow-y: auto;
-  scrollbar-width: thin;
-  scrollbar-color: #c8a879 transparent;
-}
-
-.herbarium-content::-webkit-scrollbar {
-  width: 4px;
-}
-
-.herbarium-content::-webkit-scrollbar-track {
-  background: transparent;
-}
-
-.herbarium-content::-webkit-scrollbar-thumb {
-  background: #c8a879;
-  border-radius: 4px;
 }
 
 .herbarium-content p {

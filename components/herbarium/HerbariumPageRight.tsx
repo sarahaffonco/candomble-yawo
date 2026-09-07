@@ -2,6 +2,7 @@ import HerbariumSeparator from "./HerbariumSeparator";
 
 type Props = {
   nome: string;
+  nomeTradicional?: string;
   descricao: string;
   caracteristicas: string;
   orixas: string;
@@ -12,6 +13,7 @@ type Props = {
 
 export default function HerbariumPageRight({
   nome,
+  nomeTradicional,
   descricao,
   caracteristicas,
   orixas,
@@ -21,16 +23,10 @@ export default function HerbariumPageRight({
 }: Props) {
   return (
     <div className="herbarium-page herbarium-page-right flex min-h-0 w-full flex-1 flex-col p-4 text-center sm:p-6 md:w-1/2 md:p-8">
-      <div
-        className="herbarium-ornament"
-        aria-hidden="true"
-      />
+      <div className="herbarium-ornament" aria-hidden="true" />
 
-      <div className="herbarium-content flex-1 min-h-0 w-full overflow-y-auto">
-        <div
-          className="herbarium-title-ornament"
-          aria-hidden="true"
-        >
+      <div className="herbarium-content w-full">
+        <div className="herbarium-title-ornament" aria-hidden="true">
           <span>❧</span>
         </div>
 
@@ -39,6 +35,9 @@ export default function HerbariumPageRight({
         <h1 className="text-center font-serif text-2xl font-semibold uppercase tracking-[0.14em] text-[#493426] sm:text-3xl">
           {nome}
         </h1>
+        <p className="mt-3 text-center font-serif text-base italic text-[#73533b]">
+          {nomeTradicional}
+        </p>
 
         <HerbariumSeparator />
 
@@ -48,9 +47,7 @@ export default function HerbariumPageRight({
 
         <HerbariumSeparator />
 
-        <h2 className="herbarium-heading text-center">
-          Características
-        </h2>
+        <h2 className="herbarium-heading text-center">Características</h2>
 
         <p className="text-[13px] leading-6 text-[#493426] sm:text-[14px]">
           {caracteristicas}
@@ -58,9 +55,7 @@ export default function HerbariumPageRight({
 
         <HerbariumSeparator />
 
-        <h2 className="herbarium-heading text-center">
-          Relação com os Orixás
-        </h2>
+        <h2 className="herbarium-heading text-center">Relação com os Orixás</h2>
 
         <p className="text-[13px] leading-6 text-[#493426] sm:text-[14px]">
           {orixas}
@@ -68,9 +63,7 @@ export default function HerbariumPageRight({
 
         <HerbariumSeparator />
 
-        <h2 className="herbarium-heading text-center">
-          Uso tradicional
-        </h2>
+        <h2 className="herbarium-heading text-center">Uso tradicional</h2>
 
         <p className="text-[13px] leading-6 text-[#493426] sm:text-[14px]">
           {usoTradicional}
@@ -78,9 +71,7 @@ export default function HerbariumPageRight({
 
         <HerbariumSeparator />
 
-        <h2 className="herbarium-heading text-center">
-          Observações
-        </h2>
+        <h2 className="herbarium-heading text-center">Observações</h2>
 
         <p className="text-[13px] leading-6 text-[#493426] sm:text-[14px]">
           {observacoes}

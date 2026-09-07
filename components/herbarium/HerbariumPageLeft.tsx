@@ -93,6 +93,8 @@ export default function HerbariumPageLeft({
       <p className="mt-3 text-center font-serif text-base italic text-[#73533b]">
         {nomeCientifico}
       </p>
+
+
     </div>
   );
 }
