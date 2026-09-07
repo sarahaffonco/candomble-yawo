@@ -6,7 +6,7 @@ export function useHerbariumNavigation(totalPaginas: number) {
   const [direcao, setDirecao] = useState<"next" | "prev">("next");
 
   function virarPagina(direcaoNova: "next" | "prev") {
-    if (virando) return;
+    if (virando || totalPaginas === 0) return;
 
     setDirecao(direcaoNova);
     setVirando(true);
@@ -34,11 +34,35 @@ export function useHerbariumNavigation(totalPaginas: number) {
     virarPagina("next");
   }
 
+  function irParaPagina(numeroPagina: number) {
+    if (
+      virando ||
+      !Number.isInteger(numeroPagina) ||
+      numeroPagina < 1 ||
+      numeroPagina > totalPaginas ||
+      numeroPagina === paginaAtual + 1
+    ) {
+      return;
+    }
+
+    setDirecao(numeroPagina > paginaAtual + 1 ? "next" : "prev");
+    setVirando(true);
+
+    setTimeout(() => {
+      setPaginaAtual(numeroPagina - 1);
+    }, 350);
+
+    setTimeout(() => {
+      setVirando(false);
+    }, 700);
+  }
+
   return {
     paginaAtual,
     virando,
     direcao,
     paginaAnterior,
     proximaPagina,
+    irParaPagina,
   };
 }
