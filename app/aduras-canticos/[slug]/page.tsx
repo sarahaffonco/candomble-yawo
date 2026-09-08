@@ -1,6 +1,8 @@
 import { notFound } from "next/navigation";
 import { adurasCanticos } from "@/data/adurasCanticos";
 import Header from "@/components/header";
+import Link from "next/link";
+
 
 export default async function AdurasCanticosPage({
   params,
@@ -18,10 +20,10 @@ export default async function AdurasCanticosPage({
   return (
     <div>
       <Header />
-      <main className="flex min-h-screen flex-col items-center bg-[#f4c7a1] px-4 py-10">
+      <main className="flex min-h-screen flex-col items-center px-4 py-10">
         <div className="h-4" />
         <div className="w-full max-w-295">
-          <h1 className="title-card mx-auto mb-8 max-w-195 ">
+          <h1 className="title-card mx-auto mb-8 items-center  max-w-195 ">
             {adurasCanticosItem.nome}
           </h1>
         </div>
@@ -41,6 +43,13 @@ export default async function AdurasCanticosPage({
               {adurasCanticosItem.traducao}
             </p>
           </div>
+
+          <Link
+            href="/aduras-canticos"
+            className="mb-6 inline-block text-sm font-semibold uppercase tracking-[0.2em] text-[#9a3d15] transition hover:text-[#e75a18]"
+          >
+            ← Voltar para Aduras
+          </Link>
         </div>
       </main>
     </div>

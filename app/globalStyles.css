@@ -23,6 +23,7 @@ body {
   font-family: var(--font-inter);
 }
 
+
 /* ==========================
    TIPOGRAFIA
 ========================== */
@@ -54,6 +55,10 @@ font-family: var(--font-cinzel);
 
 .menu-link {
   @apply text-base font-medium transition-colors duration-300;
+}
+
+.text-little{
+  @apply  font-light text-xs;
 }
 
 /* ==========================

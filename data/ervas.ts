@@ -240,7 +240,17 @@ de pessoas e ambientes.`,
     observacoes: ``,
 
   },
- 
+  {
+    nome: "Arruda",
+    nomeCientifico: "Ruta graveolens",
+    imagem: "/images/herbario/arruda.jpeg",
+    descricao: "Descrição da erva ficará aqui. Posteriormente podemos desenvolver o conteúdo com base nas fontes que você estiver utilizando.",
+    caracteristicas: "Descrição da erva ficará aqui. Posteriormente podemos desenvolver o conteúdo com base nas fontes que você estiver utilizando.",
+    usoTradicional: "Geralmente utilizada em banhos e fundamentos.",
+    orixas: "Òsányìn",
+    observacoes: ``,
+
+  },  
     {
     nome: " ",
     nomeCientifico: " ",

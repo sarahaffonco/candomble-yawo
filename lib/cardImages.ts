@@ -24,7 +24,7 @@ const cardImageMap: Record<string, string> = {
 export function getCardImagePath(slug: string): string {
   const normalized = slug
     .toLowerCase()
-    .replace(/^adura-/, "")
+    .replace(/^(adura|itan)-/, "")
     .replace(/\d+$/, "");
 
   const mappedFileName = cardImageMap[normalized];
