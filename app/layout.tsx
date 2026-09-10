@@ -1,4 +1,5 @@
 import './globalStyles.css';
+import '../styles/herbarioStyle.css';
 import { Cinzel, Inter } from "next/font/google";
 import Footer from "@/components/footer";
 

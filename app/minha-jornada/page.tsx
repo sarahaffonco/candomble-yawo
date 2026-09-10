@@ -1,9 +1,6 @@
-<<<<<<< Updated upstream
 
 export default function Home() {
   return <main>Uma Yawo</main>;
-=======
-import Header from "@/components/header/Header";
 export default function MinhaJornadaPage() {
   return (
     <div>
@@ -13,5 +10,5 @@ export default function MinhaJornadaPage() {
       </main>
     </div>
   );
->>>>>>> Stashed changes
+
 }

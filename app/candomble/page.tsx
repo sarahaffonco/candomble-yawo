@@ -271,11 +271,11 @@ export default function SobreCandomble() {
                 terminou. Ela continua sendo escrita hoje, dentro de cada
                 barracão, no toque de cada atabaque, na reza de cada Iyalorixá e
                 Babalorixá, e no coração de cada filho de santo que mantém sua
-                fé firme, apesar dos desafios. O Candomblé não é uma peça de
+                espiritualidade firme, apesar dos desafios. O Candomblé não é uma peça de
                 museu; ele é uma religião que se renova a cada dia, acolhendo,
                 curando e fortalecendo. Que este conteúdo tenha servido como uma
                 ponte para que você possa entender melhor a profundidade dessa
-                fé e, quem sabe, inspirar-se a buscar mais conhecimento, seja
+                espiritualidade e, quem sabe, inspirar-se a buscar mais conhecimento, seja
                 através de leituras sérias, da convivência respeitosa ou da
                 vivência no terreiro. Agradecemos por nos acompanhar nesta
                 imersão pela história e pelo Axé. Que os Orixás iluminem a sua
