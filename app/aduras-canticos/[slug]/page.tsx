@@ -1,6 +1,6 @@
 import { notFound } from "next/navigation";
 import { adurasCanticos } from "@/data/adurasCanticos";
-import Header from "@/components/header";
+import Header from "@/components/header/Header";
 import Link from "next/link";
 
 

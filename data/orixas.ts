@@ -1,4 +1,23 @@
-import { Orixa } from "@/data/types/orixa";
+export interface QualidadeOrixa {
+  nome: string;
+  caracteristicas: string;
+  historia: string;
+  cores: string;
+  ligacao: string;
+}
+
+export interface Orixa {
+  slug: string;
+  imagem: string;
+  nome: string;
+  descricao: string;
+  dominio: string;
+  caracteristicaOrixa: string;
+  cor: string;
+  semana: string;
+  caracteristicasFilhos: string;
+  qualidades: QualidadeOrixa[];
+}
 
 export const orixas: Orixa[] = [
   {

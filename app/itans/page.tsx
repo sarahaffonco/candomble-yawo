@@ -1,4 +1,4 @@
-import Header from "@/components/header";
+import Header from "@/components/header/Header";
 import { getCardImagePath } from "@/lib/cardImages";
 import ContentCard from "@/components/contentCard";
 import { itans } from "@/data/itans";

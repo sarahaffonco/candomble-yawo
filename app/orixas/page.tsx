@@ -1,5 +1,6 @@
-import Header from "@/components/header";
+
 import ContentCard from "@/components/contentCard";
+import Header from "@/components/header/Header";
 import { orixas } from "@/data/orixas";
 import { getCardImagePath } from "@/lib/cardImages";
 

@@ -1,6 +1,6 @@
 import { notFound } from "next/navigation";
 import { itans } from "@/data/itans";
-import Header from "@/components/header";
+import Header from "@/components/header/Header";
 import Link from "next/link";
 
 export default async function itansPage({
