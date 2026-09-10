@@ -1,7 +1,8 @@
 import { notFound } from "next/navigation";
 import Image from "next/image";
 import { orixas } from "@/data/orixas";
-import Header from "@/components/header";
+
+import Header from "@/components/header/Header";
 import Link from "next/link";
 
 export default async function OrixaPage({

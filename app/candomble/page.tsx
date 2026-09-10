@@ -1,4 +1,4 @@
-import Header from "@/components/header";
+import Header from "@/components/header/Header";
 
 export default function SobreCandomble() {
   return (

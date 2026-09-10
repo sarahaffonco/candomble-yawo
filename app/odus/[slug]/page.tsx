@@ -1,6 +1,6 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import Header from "@/components/header";
+import Header from "@/components/header/Header";
 import { odus } from "@/data/odus";
 
 export default async function OduPage({
