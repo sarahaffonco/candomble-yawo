@@ -1,4 +1,23 @@
-import { Orixa } from "@/data/types/orixa";
+export interface QualidadeOrixa {
+  nome: string;
+  caracteristicas: string;
+  historia: string;
+  cores: string;
+  ligacao: string;
+}
+
+export interface Orixa {
+  slug: string;
+  imagem: string;
+  nome: string;
+  descricao: string;
+  dominio: string;
+  caracteristicaOrixa: string;
+  cor: string;
+  semana: string;
+  caracteristicasFilhos: string;
+  qualidades: QualidadeOrixa[];
+}
 
 export const orixas: Orixa[] = [
   {
@@ -813,7 +832,7 @@ Estratégia e Rancor: Nunca atacam de frente. Quando magoados, podem guardar ran
   },
   {
     slug: "ibeji",
-    imagem: "/images/orixas/ibeji.png",
+    imagem: "/images/orixas/Ibeji.png",
     nome: "Ibeji",
 
     descricao: `Orixás gêmeos que representam a pureza, a alegria, a inocência e o início da vida, sendo associados ao nascimento e à infância.`,

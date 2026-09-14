@@ -1,0 +1,413 @@
+@import "tailwindcss";
+
+.herbarium-main {
+  min-height: calc(100vh - 225px);
+}
+
+.herbarium-summary-line {
+  width: 110px;
+  height: 1px;
+  margin: 12px auto 0;
+  background: #a87532;
+}
+
+.herbarium-summary {
+  padding: 24px 28px 32px;
+}
+
+.herbarium-summary h1 {
+  margin-top: 18px;
+}
+
+.herbarium-summary-left {
+  padding-right: 42px;
+}
+
+.herbarium-summary-right {
+  padding-left: 42px;
+}
+
+.herbarium-summary ol {
+  width: 100%;
+  margin-inline: 14px;
+  width: calc(100% - 28px);
+}
+
+.herbarium-summary li {
+  padding-inline: 10px;
+}
+
+@media (min-width: 768px) {
+  .herbarium-summary {
+    padding-top: 30px;
+  }
+
+  .herbarium-summary h1 {
+    margin-top: 24px;
+  }
+
+  .herbarium-summary ol {
+    margin-inline: 18px;
+    width: calc(100% - 36px);
+  }
+
+  .herbarium-summary-left {
+    padding-left: 34px;
+  }
+
+  .herbarium-summary-right {
+    padding-right: 34px;
+  }
+}
+
+.herbarium-book {
+  isolation: isolate;
+  background: #4b2d17;
+  border: 10px solid #4b2d17;
+  box-shadow: 0 24px 50px rgba(28, 17, 10, 0.48), inset 0 0 0 2px rgba(220, 170, 91, 0.45), inset 0 0 18px rgba(20, 10, 4, 0.55);
+perspective: 1800px;
+  transform-style: preserve-3d;
+}
+.herbarium-turning-page {
+  position: absolute;
+  z-index: 20;
+  top: 0;
+  bottom: 0;
+  width: 50%;
+  
+  background:
+    linear-gradient(
+      90deg,
+      rgba(80, 50, 30, 0.08),
+      rgba(255, 248, 225, 0.96) 8%,
+      rgba(255, 248, 225, 1) 50%,
+      rgba(180, 140, 95, 0.12)
+    );
+
+  box-shadow:
+    0 0 18px rgba(70, 40, 20, 0.18);
+
+  transform-style: preserve-3d;
+  backface-visibility: hidden;
+
+  pointer-events: none;
+}
+.herbarium-turning-page-next {
+  right: 0;
+  transform-origin: left center;
+
+  animation: virarPaginaNext 700ms cubic-bezier(0.65, 0, 0.35, 1)
+    forwards;
+}
+
+.herbarium-turning-page-prev {
+  left: 0;
+  transform-origin: right center;
+
+  animation: virarPaginaPrev 700ms cubic-bezier(0.65, 0, 0.35, 1)
+    forwards;
+}
+.herbarium-book::before {
+  position: absolute;
+  inset: 0;
+  z-index: 3;
+  border: 1px solid rgba(238, 190, 103, 0.35);
+  border-radius: 4px;
+  content: "";
+  pointer-events: none;
+}
+
+.herbarium-book::after {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  z-index: 2;
+  width: 18px;
+  transform: translateX(-50%);
+  background: linear-gradient(90deg, rgba(82, 46, 22, 0.1), rgba(61, 29, 11, 0.38) 48%, rgba(255, 229, 166, 0.2));
+  box-shadow: 0 0 13px rgba(67, 32, 12, 0.42);
+  content: "";
+  pointer-events: none;
+}
+
+.herbarium-page {
+  position: relative;
+  overflow: hidden;
+  background-color: #f2dfbb;
+  background-image:
+    radial-gradient(circle at 20% 18%, rgba(157, 106, 47, 0.12), transparent 22%),
+    radial-gradient(circle at 80% 82%, rgba(126, 73, 31, 0.1), transparent 26%),
+    repeating-linear-gradient(0deg, rgba(105, 65, 32, 0.025) 0, rgba(105, 65, 32, 0.025) 1px, transparent 1px, transparent 4px);
+}
+
+.herbarium-page-left {
+  border-bottom: 1px solid #c8a879;
+  box-shadow: inset -12px 0 18px rgba(108, 65, 27, 0.08);
+}
+
+.herbarium-page-right {
+  border-top: 1px solid #c8a879;
+  box-shadow: inset 12px 0 18px rgba(108, 65, 27, 0.08);
+}
+
+.herbarium-ornament {
+  position: absolute;
+  inset: 22px;
+  border: 1px solid rgba(164, 112, 45, 0.58);
+  pointer-events: none;
+}
+
+.herbarium-ornament::before,
+.herbarium-ornament::after {
+  content: "❧";
+  position: absolute;
+  color: rgba(164, 112, 45, 0.72);
+  font-family: Georgia, serif;
+  font-size: 28px;
+}
+
+.herbarium-ornament::before { left: -10px; top: -17px; }
+.herbarium-ornament::after { right: -10px; bottom: -17px; transform: rotate(180deg); }
+
+.herbarium-title-ornament {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0;
+  margin: 2px auto 6px;
+  width: min(100%, 280px);
+  color: #b27a24;
+  font-family: Georgia, serif;
+  font-size: 22px;
+  line-height: 1;
+}
+
+.herbarium-title-ornament::before,
+.herbarium-title-ornament::after {
+  height: 1px;
+  flex: 1;
+  background: #b99150;
+  content: "";
+}
+
+.herbarium-title-ornament span {
+  padding: 0 12px;
+  transform: rotate(180deg);
+}
+
+.herbarium-separator {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: min(100%, 180px);
+  margin: 10px auto 8px;
+  color: #b27a24;
+  font-family: Georgia, serif;
+  font-size: 15px;
+  line-height: 1;
+}
+
+.herbarium-separator::before,
+.herbarium-separator::after {
+  height: 1px;
+  flex: 1;
+  background: #b99150;
+  content: "";
+}
+
+.herbarium-separator span {
+  display: inline-block;
+  transform: rotate(180deg);
+}
+
+.herbarium-heading {
+  color: #69472e;
+  font-family: Georgia, serif;
+  font-size: 0.95rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-bottom: 2px;
+}
+
+.herbarium-control {
+  display: grid;
+  place-items: center;
+  height: 44px;
+  width: 44px;
+  border: 1px solid #c7994f;
+  border-radius: 999px;
+  color: #f3d08c;
+  background: #4a3324;
+  font-family: Georgia, serif;
+  font-size: 1.7rem;
+  line-height: 1;
+  transition: transform 180ms ease, background-color 180ms ease;
+}
+
+.herbarium-control:hover {
+  transform: scale(1.08);
+  background-color: #62442b;
+}
+
+.herbarium-counter {
+  min-width: 112px;
+  padding: 9px 18px;
+  border-block: 1px solid #8f693a;
+  background-color: #4a3324;
+  color: #f1cf91;
+  text-align: center;
+  letter-spacing: 0.12em;
+}
+
+/* ==========================
+   IMAGEM DO HERBÁRIO
+========================== */
+
+.herbarium-image-container {
+  position: relative;
+  width: 100%;
+  max-width: 380px;
+  aspect-ratio: 1 / 1.2;
+  max-height: 38vh;
+  overflow: hidden;
+  cursor: zoom-in;
+  touch-action: none;
+  flex-shrink: 0;
+}
+
+.herbarium-image-container.zoom-ativo {
+  cursor: zoom-out;
+}
+
+.herbarium-plant-image {
+  object-fit: contain;
+  user-select: none;
+  pointer-events: none;
+  filter: drop-shadow(0 18px 14px rgba(70, 45, 22, 0.22));
+  transition: transform 450ms ease, filter 450ms ease;
+}
+
+.herbarium-image-container.zoom-ativo .herbarium-plant-image {
+  transition: none;
+  filter: drop-shadow(0 22px 18px rgba(70, 45, 22, 0.28));
+}
+
+.herbarium-image-container.zoom-ativo.arrastando {
+  cursor: grabbing;
+}
+
+/* Botão da lupa */
+
+.herbarium-zoom-button {
+  position: absolute;
+  right: 14px;
+  top: 14px;
+  z-index: 5;
+  display: grid;
+  place-items: center;
+  width: 38px;
+  height: 38px;
+  border: 1px solid rgba(164, 112, 45, 0.7);
+  border-radius: 999px;
+  background: rgba(242, 223, 187, 0.9);
+  color: #69472e;
+  font-family: Georgia, serif;
+  font-size: 24px;
+  cursor: pointer;
+  box-shadow: 0 3px 8px rgba(70, 45, 22, 0.18);
+  backdrop-filter: blur(3px);
+  transition: transform 180ms ease, background-color 180ms ease, box-shadow 180ms ease;
+}
+
+.herbarium-zoom-button:hover {
+  transform: scale(1.08);
+  background-color: #f7e9cc;
+  box-shadow: 0 5px 12px rgba(70, 45, 22, 0.25);
+}
+
+.herbarium-zoom-button:active {
+  transform: scale(0.96);
+}
+
+/* ==========================
+   CONTEÚDO DA PÁGINA DIREITA
+========================== */
+
+.herbarium-content {
+  width: 100%;
+  min-width: 0;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.herbarium-content p {
+  width: 100%;
+  min-width: 0;
+  max-width: 100%;
+  overflow-wrap: break-word;
+  word-break: normal;
+  padding-left: 40px;
+  padding-right: 50px;
+}
+
+@keyframes virarPaginaNext {
+  0% {
+    transform: rotateY(0deg);
+    box-shadow: 0 0 8px rgba(70, 40, 20, 0.12);
+  }
+
+  45% {
+    box-shadow:
+      -18px 0 30px rgba(70, 40, 20, 0.25);
+  }
+
+  100% {
+    transform: rotateY(-180deg);
+    box-shadow: 0 0 4px rgba(70, 40, 20, 0);
+  }
+}
+
+@keyframes virarPaginaPrev {
+  0% {
+    transform: rotateY(0deg);
+    box-shadow: 0 0 8px rgba(70, 40, 20, 0.12);
+  }
+
+  45% {
+    box-shadow:
+      18px 0 30px rgba(70, 40, 20, 0.25);
+  }
+
+  100% {
+    transform: rotateY(180deg);
+    box-shadow: 0 0 4px rgba(70, 40, 20, 0);
+  }
+}
+
+@media (min-width: 768px) {
+  .herbarium-page-left { border-bottom: 0; border-right: 1px solid #c8a879; }
+  .herbarium-page-right { border-top: 0; }
+  
+  .herbarium-image-container {
+    max-width: 400px;
+    max-height: 42vh;
+  }
+}
+
+@media (max-width: 767px) {
+  .herbarium-book::after {
+    top: 50%;
+    right: 0;
+    bottom: auto;
+    left: 0;
+    width: auto;
+    height: 16px;
+    transform: translateY(-50%);
+  }
+  
+  .herbarium-image-container {
+    max-width: 340px;
+    max-height: 32vh;
+  }
+}

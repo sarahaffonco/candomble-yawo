@@ -1,5 +1,7 @@
 import './globalStyles.css';
+import '../styles/herbarioStyle.css';
 import { Cinzel, Inter } from "next/font/google";
+import Footer from "@/components/footer";
 
 export const cinzel = Cinzel({
   subsets: ["latin"],
@@ -21,9 +23,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-      <html lang="pt-BR">
+    <html lang="pt-BR">
       <body className={`${inter.variable} ${cinzel.variable}`}>
-        {children}
+        <div className="flex min-h-screen flex-col">
+          <main className="flex-1">{children}</main>
+          <Footer />
+        </div>
       </body>
     </html>
   );
