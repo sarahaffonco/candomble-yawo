@@ -1,5 +1,6 @@
-import Header from "@/components/header";
 
+export default function Home() {
+  return <main>Uma Yawo</main>;
 export default function MinhaJornadaPage() {
   return (
     <div>
@@ -9,4 +10,5 @@ export default function MinhaJornadaPage() {
       </main>
     </div>
   );
+
 }

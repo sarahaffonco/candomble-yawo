@@ -1,5 +1,4 @@
-import Header from "@/components/header";
-
+import Header from "@/components/header/Header";
 type CanticoPageProps = {
   params: Promise<{ slug: string }>;
 };

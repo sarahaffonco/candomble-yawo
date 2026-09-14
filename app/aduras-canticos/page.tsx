@@ -1,5 +1,4 @@
-import Header from "@/components/header";
-import ContentCard from "@/components/contentCard";
+import Header from "@/components/header/Header";import ContentCard from "@/components/contentCard";
 import { getCardImagePath } from "@/lib/cardImages";
 
 const aduras = [
