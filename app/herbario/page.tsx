@@ -1,10 +1,5 @@
 
-<<<<<<< Updated upstream
-export default function Home() {
-  return <main>Herbario</main>;
-}
-=======
-import Header from "@/components/header/Header";
+import Header from "@/components/header";
 import HerbariumBook from "@/components/HerbariumBook";
 import { ervas } from "@/data/ervas";
 
@@ -23,4 +18,3 @@ export default function HerbarioPage() {
     </div>
   );
 }
->>>>>>> Stashed changes
