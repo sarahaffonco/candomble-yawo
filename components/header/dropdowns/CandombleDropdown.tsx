@@ -10,7 +10,7 @@ export function CandombleDropdown({ isActive, onSelect }: CandombleDropdownProps
     { href: '/candomble', label: 'Diversidade das tradições' },
     { href: '/orixas', label: 'Orixás' },
     { href: '/itans', label: 'Itans' },
-    { href: '/candomble#vocabulario', label: 'Vocabulário básico' },
+    { href: '/vocabulario', label: 'Vocabulário básico' },
   ];
 
   return (
