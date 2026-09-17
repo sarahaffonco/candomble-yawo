@@ -11,7 +11,6 @@ export default function OrixasPage() {
       <Header />
       <br />
       <main className="flex min-h-screen flex-col items-center justify-center  gap-5">
-        <article className="mx-auto max-w-190">
           <header className="mb-10 text-center">
             <h1 className="title-card text-2xl font-semibold leading-tight sm:text-3xl">
               Os Orixás
@@ -89,17 +88,7 @@ export default function OrixasPage() {
             ))}
           </div>
 
-                      <div className="h-4" />
-
-          <aside className="text-little ">
-            Referências e leituras:
-            <ul className="list-disc pl-5">
-              <li>Pierre Verger - Notas sobre o Culto aos Orixás e Voduns.</li>
-              <li>Wándé Abímbọ́lá - Uma Exposição do Corpo Literário de Ifá.</li>
-              <li>Pallas — O Candomblé Bem Explicado</li>
-            </ul>
-          </aside>
       </main>
     </div>
   );
-}
+  }

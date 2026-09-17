@@ -1,7 +1,5 @@
 import Header from "@/components/header/Header";
 
-export default function MinhaJornadaPage() {
-
 export default function Vivencias() {
   return (
     <div>
