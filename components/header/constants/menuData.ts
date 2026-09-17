@@ -13,7 +13,10 @@ export const menuGroups = [
     id: 'saberes',
     label: 'Saberes',
     items: [
-      { href: '/herbario', label: 'Herbário' },
+            { href: '/herbario', label: 'Herbário' },
+      {href: '/orin-ewe', label: 'Orin de Ewe'},
+      { href: '/aduras-canticos', label: 'Aduras' },
+      { href: '/canticos', label: 'Canticos' },
       { href: '/vivencias', label: 'Vivências' },
       { href: '/elementos', label: 'Elementos' },
     ],

@@ -1,10 +1,16 @@
-import { useState } from 'react';
+
+'use client';
+
+import { useEffect, useRef, useState } from 'react';
+
 import { CandombleDropdown } from './dropdowns/CandombleDropdown';
 import { TrailDropdown } from './dropdowns/TrailDropdown';
 import { DropdownMenu } from './dropdowns/DropdownMenu';
 import { SearchButton } from './search/SearchButton';
 import { Logo } from './Logo';
+
 import Link from 'next/link';
+
 import { menuGroups } from './constants/menuData';
 
 interface HeaderNavProps {
@@ -12,36 +18,108 @@ interface HeaderNavProps {
   onSearchOpen: () => void;
 }
 
-export function HeaderNav({ isActive, onSearchOpen }: HeaderNavProps) {
+export function HeaderNav({
+  isActive,
+  onSearchOpen,
+}: HeaderNavProps) {
   const [openMenu, setOpenMenu] = useState<string | null>(null);
 
+  const closeTimeoutRef =
+    useRef<ReturnType<typeof setTimeout> | null>(null);
+
+  const navRef = useRef<HTMLElement>(null);
+
+  useEffect(() => {
+    const closeMenu = (event: PointerEvent) => {
+      const target = event.target as Node;
+
+      // Não fecha se o clique aconteceu dentro do nav
+      if (navRef.current?.contains(target)) {
+        return;
+      }
+
+      setOpenMenu(null);
+    };
+
+    document.addEventListener('pointerdown', closeMenu);
+
+    return () => {
+      document.removeEventListener('pointerdown', closeMenu);
+
+      if (closeTimeoutRef.current) {
+        clearTimeout(closeTimeoutRef.current);
+      }
+    };
+  }, []);
+
+  const openMenuOnHover = (menuId: string) => {
+    if (closeTimeoutRef.current) {
+      clearTimeout(closeTimeoutRef.current);
+    }
+
+    setOpenMenu(menuId);
+  };
+
+  const closeMenuOnLeave = () => {
+    closeTimeoutRef.current = setTimeout(() => {
+      setOpenMenu(null);
+    }, 200);
+  };
+
   return (
-    <nav className="relative z-10 grid w-full max-w-280 grid-cols-1 items-center gap-5 text-center lg:grid-cols-[1fr_auto_1fr]">
+    <nav
+      ref={navRef}
+      className="relative z-10 grid w-full max-w-280 grid-cols-1 items-center gap-5 text-center lg:grid-cols-[1fr_auto_1fr]"
+    >
       {/* Menu Left */}
       <div className="flex min-w-0 items-center justify-center gap-5 lg:justify-end xl:gap-8">
         <Link
           href="/"
           className={`relative pb-2 text-sm font-bold text-[#ffe7bb] transition hover:text-[#f7a12d] ${
-            isActive('/') 
-              ? 'text-[#f7a12d] after:absolute after:bottom-0 after:left-0 after:h-0.75 after:w-full after:rounded-full after:bg-[#f7a12d]' 
+            isActive('/')
+              ? 'text-[#f7a12d] after:absolute after:bottom-0 after:left-0 after:h-0.75 after:w-full after:rounded-full after:bg-[#f7a12d]'
               : ''
           }`}
         >
           Início
         </Link>
-        <div className="relative">
+
+        <div
+          className="relative"
+          onMouseEnter={() => openMenuOnHover('candomble')}
+          onMouseLeave={closeMenuOnLeave}
+        >
           <button
             type="button"
             aria-expanded={openMenu === 'candomble'}
             aria-haspopup="menu"
-            onClick={() => setOpenMenu(openMenu === 'candomble' ? null : 'candomble')}
+            onClick={() =>
+              setOpenMenu(
+                openMenu === 'candomble'
+                  ? null
+                  : 'candomble'
+              )
+            }
             className="flex items-center gap-2 pb-2 text-sm font-bold text-[#ffe7bb] transition hover:text-[#f7a12d]"
           >
             O Candomblé
-            <span className={`text-xs transition-transform ${openMenu === 'candomble' ? 'rotate-180' : ''}`}>⌄</span>
+
+            <span
+              className={`text-xs transition-transform ${
+                openMenu === 'candomble'
+                  ? 'rotate-180'
+                  : ''
+              }`}
+            >
+              ⌄
+            </span>
           </button>
+
           {openMenu === 'candomble' && (
-            <CandombleDropdown isActive={isActive} onSelect={() => setOpenMenu(null)} />
+            <CandombleDropdown
+              isActive={isActive}
+              onSelect={() => setOpenMenu(null)}
+            />
           )}
         </div>
       </div>
@@ -50,19 +128,40 @@ export function HeaderNav({ isActive, onSearchOpen }: HeaderNavProps) {
       <Logo />
 
       {/* Menu Right */}
-      <div className="flex min-w-0 items-center justify-center gap-5 lg:justify-start l:gap-8">
+      <div className="flex min-w-0 items-center justify-center gap-5 lg:justify-start xl:gap-8">
         {menuGroups.slice(1).map((group) => (
-          <div className="relative" key={group.id}>
+          <div
+            className="relative"
+            key={group.id}
+            onMouseEnter={() => openMenuOnHover(group.id)}
+            onMouseLeave={closeMenuOnLeave}
+          >
             <button
               type="button"
               aria-expanded={openMenu === group.id}
               aria-haspopup="menu"
-              onClick={() => setOpenMenu(openMenu === group.id ? null : group.id)}
+              onClick={() =>
+                setOpenMenu(
+                  openMenu === group.id
+                    ? null
+                    : group.id
+                )
+              }
               className="flex items-center gap-2 pb-2 text-sm font-bold text-[#ffe7bb] transition hover:text-[#f7a12d]"
             >
               {group.label}
-              <span className={`text-sm transition-transform ${openMenu === group.id ? 'rotate-180' : ''}`}>⌄</span>
+
+              <span
+                className={`text-sm transition-transform ${
+                  openMenu === group.id
+                    ? 'rotate-180'
+                    : ''
+                }`}
+              >
+                ⌄
+              </span>
             </button>
+
             {openMenu === group.id && (
               group.id === 'saberes' ? (
                 <TrailDropdown
@@ -85,7 +184,11 @@ export function HeaderNav({ isActive, onSearchOpen }: HeaderNavProps) {
                   onSelect={() => setOpenMenu(null)}
                 />
               ) : (
-                <DropdownMenu items={group.items} isActive={isActive} onSelect={() => setOpenMenu(null)} />
+                <DropdownMenu
+                  items={group.items}
+                  isActive={isActive}
+                  onSelect={() => setOpenMenu(null)}
+                />
               )
             )}
           </div>
