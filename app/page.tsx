@@ -6,28 +6,17 @@ export default function Home() {
   return (
     <main className="min-h-screen  ">
       <Header />
-      <section className="mx-auto mt-24 grid w-full max-w-295 gap-10 px-4 pb-12 pt-30 md:grid-cols-[minmax(260px,420px)_minmax(0,1fr)] md:px-8 md:pt-24 lg:gap-14">
-        <div className="flex items-center md:justify-end">
-          <div className="relative w-full max-w-90 overflow-hidden rounded-[28px] shadow-2xl">
-            <Image
-              src="/images/yawo.jpg"
-              alt="Yawo"
-              width={720}
-              height={1080}
-              className="h-auto w-full object-cover"
-              priority
-            />
-          </div>
-        </div>
+      <main className="flex min-h-screen flex-col items-center justify-center  gap-5">
+        <article className="mx-auto max-w-190">
+          <div className= "h-4"/>
+          <header className="mb-10 text-center">
+            <h1 className="title-card text-2xl font-semibold leading-tight sm:text-3xl text-[#e97d36]">
+              Acervo de ancestralidade e cultura
+            </h1>
+          </header>
 
-        <div className="flex max-w-175 flex-col gap-10 text-[#2d1b12] md:justify-self-start">
-          <div className="h-6" />
-          <div className="title-card text-center text-[#e97d36] ">
-            <p>Acervo de ancestralidade e cultura</p>
-          </div>
-
-          <div className="text-content space-y-4 text-justify text-sm leading-7">
-            <p className=" text-content mx-auto max-w-190 whitespace-pre-line text-justify ">
+          <div className=" space-y-4 text-justify text-sm leading-7">
+            <p className=" text-content items-center max-w-190 whitespace-pre-line text-justify ">
               {`      A bênção, meus mais velhos. A bênção, meus mais novos. 
          
                 Seja bem-vindo(a) a este espaço de conhecimento, memória e aprendizado sobre o Candomblé e a cultura afro-brasileira.
@@ -51,10 +40,8 @@ O conhecimento aqui apresentado deve ser compreendido como parte de um processo 
 Que este espaço possa contribuir para uma aproximação mais consciente, respeitosa e responsável com o Candomblé, promovendo conhecimento, valorização cultural e preservação da memória.`}
             </p>
           </div>
-
-          <div className="mt-8 flex justify-end gap-4 text-sm font-semibold uppercase text-[#5b1f0e]"></div>
-        </div>
-      </section>
+        </article>
+      </main>
     </main>
   );
 }

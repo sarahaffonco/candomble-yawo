@@ -105,7 +105,7 @@
 
 .candomble-dropdown li a {
   display: flex;
-  align-items: center;
+  n-items: center;
   gap: 9px;
   min-height: 27px;
   color: #49352c;

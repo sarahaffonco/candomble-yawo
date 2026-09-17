@@ -1,4 +1,3 @@
-
 import ContentCard from "@/components/contentCard";
 import Header from "@/components/header/Header";
 import { orixas } from "@/data/orixas";
@@ -88,6 +87,7 @@ export default function OrixasPage() {
               />
             ))}
           </div>
+
       </main>
     </div>
   );

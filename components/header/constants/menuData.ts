@@ -6,7 +6,7 @@ export const menuGroups = [
       { href: '/candomble', label: 'Diversidade das tradições' },
       { href: '/orixas', label: 'Orixás' },
       { href: '/itans', label: 'Itans' },
-      { href: '/candomble#vocabulario', label: 'Vocabulário' },
+      { href: '/vocabulario', label: 'Vocabulário' },
     ],
   },
   {
@@ -14,16 +14,16 @@ export const menuGroups = [
     label: 'Saberes',
     items: [
       { href: '/herbario', label: 'Herbário' },
-      { href: '/minha-jornada', label: 'Vivências' },
-      { href: '/odus', label: 'Elementos' },
+      { href: '/vivencias', label: 'Vivências' },
+      { href: '/elementos', label: 'Elementos' },
     ],
   },
   {
     id: 'memoria',
     label: 'Memória e patrimônio',
     items: [
-      { href: '/itans', label: 'Memória cultural' },
-      { href: '/candomble#mapa', label: 'Mapeamento' },
+      { href: '/memoria-cultural', label: 'Memória cultural' },
+      { href: '/mapeamento', label: 'Mapeamento' },
     ],
   },
 ] as const;
