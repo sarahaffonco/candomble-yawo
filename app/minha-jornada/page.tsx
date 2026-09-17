@@ -1,7 +1,6 @@
+import Header from "@/components/header/Header";
 
-export default function Home() {
-  return <main>Uma Yawo</main>;
-export default function MinhaJornadaPage() {
+export default function Vivencias() {
   return (
     <div>
       <Header />
