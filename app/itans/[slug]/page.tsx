@@ -31,7 +31,7 @@ export default async function itansPage({
         <div className="text-content mx-auto w-full max-w-140 text-justify">
           <h2 className="mb-4  text-lg font-semibold">{itan.nomeitan1}</h2>
           <p className="whitespace-pre-line text-sm leading-7">{itan.itan1}</p>
-          <div className="h-4" />
+            <div className="h-4" />
 
           <h2 className="mb-4  text-lg font-semibold">{itan.nomeitan2}</h2>
           <p className="whitespace-pre-line text-sm leading-7">
