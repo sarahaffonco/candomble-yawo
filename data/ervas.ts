@@ -91,7 +91,7 @@ pode provocar irritações gastrintestinais, nefrite, intoxicação, aborto e ir
     descricao: `Também, conhecida como: lavanda, lavande, lavêndula.É considerada uma erva morna e ou equilibradora.`,
     caracteristicas: `Seus verbos de ação são:purificar, harmonizar`,
     usoTradicional: `Seu uso tradicional é em banhos, defumações, chás e maçarocada de ervas.`,
-    orixas: `Oxáa, Iemanjá e Ibeji`,
+    orixas: `Oxalá, Iemanjá e Ibeji`,
     observacoes: `A bibliografia consultada relata que seu consumo em altas doses pode ocasionar depressão e sonolência.`,
 
   },
