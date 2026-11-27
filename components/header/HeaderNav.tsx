@@ -128,7 +128,7 @@ export function HeaderNav({
       <Logo />
 
       {/* Menu Right */}
-      <div className="flex min-w-0 items-center justify-center gap-5 lg:justify-start xl:gap-8">
+      <div className="flex min-w-0 items-center justify-center gap-5 lg:justify-start ">
         {menuGroups.slice(1).map((group) => (
           <div
             className="relative"
