@@ -28,7 +28,7 @@ Conhecer essa memória é reconhecer a importância da ancestralidade, da resist
 
 A memória cultural não pertence apenas ao passado. Ela permanece presente nas comunidades, nas histórias transmitidas, nos espaços sagrados e nas práticas que atravessam gerações. Preservá-la é valorizar a história, respeitar seus protagonistas e reconhecer a importância do Candomblé Ketu como parte do patrimônio cultural brasileiro.`}
         </p>
-      <section className="mx-auto flex w-full max-w-190 flex-col items-center gap-5 px-4 text-justify">
+      <section className="mx-auto flex w-full max-w-190 flex-col items-center gap-5 px-4  text-justify">
         <h2 className="subtitle text-center align-center items-center mb-4">
           Principais marcos históricos do Candomblé Ketu
         </h2>
@@ -204,8 +204,103 @@ Esse processo representou um marco no reconhecimento dos terreiros como patrimô
                   reconhecimento cultural da tradição.
                 </p>
               </div>
+
             </section>
-            <h2 className="subtitle  text-center align-center items-center ">
+          </div>
+        </section>
+        <h2 className="subtitle  text-center align-center items-center ">
+          Pesquisadores e registros históricos
+        </h2>
+        <section className="mx-auto w-full max-w-190 px-4">
+        <p className="text-justify">
+          {`A preservação da memória do Candomblé também está relacionada ao trabalho de pesquisadores, escritores, fotógrafos e estudiosos que contribuíram para registrar aspectos da história, das tradições e das comunidades religiosas.
+
+Esses registros são importantes fontes de pesquisa, mas devem ser compreendidos considerando seus contextos históricos, suas perspectivas e os conhecimentos compartilhados pelas próprias comunidades.`}
+        </p>
+          <div className="space-y-6">
+            <section className="flex flex-col items-center gap-8 md:flex-row md:items-stretch">
+              <div className="flex w-full items-center justify-center md:w-1/3">
+                <Image
+                  src="/images/memoria/Pierre.jpeg"
+                  alt="retrato de Pierre Verger"
+                  width={100}
+                  height={100}
+                  className="h-auto w-full max-w-56 object-contain"
+                />
+              </div>
+
+              <div className="flex-1">
+                <h3 className="mb-2 font-semibold">
+                  Pierre Edouard Leopold Verger 
+                </h3>
+                <p className="text-little">1902 -1996</p>
+
+                <p className="text-justify">
+                  Pierre Verger foi fotógrafo, pesquisador e etnólogo francês que viveu grande parte de sua vida em Salvador. Seu trabalho dedicou-se especialmente ao estudo das relações culturais e religiosas entre a Bahia e a África Ocidental.
+
+Por meio de fotografias, livros e pesquisas, Verger registrou aspectos da cultura afro-baiana, das tradições iorubás e do culto aos Orixás.
+
+Sua obra tornou-se uma importante referência para os estudos sobre as relações entre África e Brasil, contribuindo para a documentação e a divulgação de conhecimentos relacionados ao Candomblé.
+                </p>
+              </div>
+            </section>
+            <section className="flex flex-col items-center gap-8 md:flex-row md:items-stretch">
+              <div className="flex w-full items-center justify-center md:w-1/3">
+                <Image
+                  src="/images/memoria/Edson.jpeg"
+                  alt="retrato de Édison Carneiro"
+                  width={100}
+                  height={100}
+                  className="h-auto w-full max-w-56 object-contain"
+                />
+              </div>
+
+              <div className="flex-1">
+                <h3 className="mb-2 font-semibold">
+                  Édison de Souza Carneiro 
+                </h3>
+                <p className="text-little">1912–1972</p>
+
+                <p className="text-justify">
+                  Édison Carneiro foi escritor, jornalista e pesquisador brasileiro que dedicou parte importante de sua trajetória ao estudo das culturas afro-brasileiras.
+
+Sua obra Candomblés da Bahia constitui uma referência histórica para o estudo dos terreiros e das tradições religiosas presentes em Salvador.
+
+Carneiro também participou de iniciativas relacionadas à valorização das comunidades negras e à defesa dos Candomblés diante das perseguições religiosas.
+                </p>
+              </div>
+            </section>
+              <section className="flex flex-col items-center gap-8 md:flex-row md:items-stretch">
+              <div className="flex w-full items-center justify-center md:w-1/3">
+                <Image
+                  src="/images/memoria/Juana.jpeg"
+                  alt="retrato de Juana"
+                  width={100}
+                  height={100}
+                  className="h-auto w-full max-w-56 object-contain"
+                />
+              </div>
+
+              <div className="flex-1">
+                <h3 className="mb-2 font-semibold">
+                  Juana Elbein dos Santos
+                </h3>
+                <p className="text-little">1972</p>
+
+                <p className="text-justify">
+                 Juana Elbein dos Santos foi antropóloga e pesquisadora dedicada ao estudo das tradições Nagô e da cultura afro-brasileira.
+
+Sua obra Os Nagô e a Morte tornou-se uma referência para o estudo de conceitos, instituições, práticas e formas de compreensão da existência presentes nas tradições Nagô.
+
+Seus estudos contribuíram para ampliar o conhecimento sobre a organização cultural e religiosa dessas comunidades.
+                </p>
+              </div>
+            </section>
+            
+
+            
+        <div className= "h-4"/>
+        <h2 className="subtitle gap-5 px-4 mb-4  text-center align-center items-center ">
           Memória que continua viva
         </h2>
             <p className="text-justify">{`A memória cultural do Candomblé Ketu não pertence somente ao passado. Ela continua presente nos terreiros, nas famílias de axé, nos cânticos, nas narrativas, nos conhecimentos transmitidos oralmente e nas experiências das novas gerações.
@@ -216,8 +311,9 @@ Esta plataforma busca colaborar com esse processo por meio da organização e da
 
 Preservar a memória do Candomblé é valorizar seus protagonistas, reconhecer a importância dos terreiros e respeitar os conhecimentos que continuam vivos nas comunidades.`}
 </p>
-          </div>
-        </section>
+            </div>
+          </section>
+
         <aside className="text-little ">
           Referências e leituras:
           <ul className="list-disc pl-5">
