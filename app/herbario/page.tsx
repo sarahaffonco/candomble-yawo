@@ -1,5 +1,5 @@
 
-import Header from "@/components/header";
+import Header from "@/components/header/Header";
 import HerbariumBook from "@/components/HerbariumBook";
 import { ervas } from "@/data/ervas";
 
